@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import StyledButton from "./StyledButton";
-import { teamData } from "./ExCom";
+import { teamData } from "./Team";
 
 export default function TeamMember() {
 	const { teamMemberSlug } = useParams();
@@ -40,13 +40,13 @@ export default function TeamMember() {
 								<button>
 									<FontAwesomeIcon
 										icon={faTwitter}
-										className="hover: transition hover:scale-125 active:scale-110 hover:dark:text-gray-400"
+										className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
 									/>
 								</button>
 								<button>
 									<FontAwesomeIcon
 										icon={faGithub}
-										className="hover: transition hover:scale-125 active:scale-110 hover:dark:text-gray-400"
+										className="transition hover:scale-125 hover:text-gray-900 active:scale-110 hover:dark:text-gray-400"
 									/>
 								</button>
 							</div>
