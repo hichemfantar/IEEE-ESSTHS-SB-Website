@@ -67,18 +67,11 @@ export default function HomePage() {
 
 					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
 					<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						11th IEEE Tunisian Students & Young Professionals Congress
+						IEEE ESSTHS Student Branch
 					</h1>
 
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						Medina Congress Center, Yasmine Hammamet
-					</h1>
-
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						<q>Silicon valley is a mindset, not a location.</q>
-					</h1>
-					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						18-20 December 2023
+						Hammamet, Sousse Tunisia, since 2019
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
@@ -92,76 +85,82 @@ export default function HomePage() {
 			</div> */}
 			</section>
 
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto">
-					<img
-						src={LogoOnBlack || Logo}
-						className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
-							LogoOnBlack ? "" : "dark:invert"
-						} sm:h-48`}
-						alt="TSYP 11"
-						loading="lazy"
-					/>
+			{false && (
+				<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
+					<div className="col-span-6 mx-auto">
+						<img
+							src={LogoOnBlack || Logo}
+							className={`mx-auto mb-8 hidden h-52 object-contain dark:block ${
+								LogoOnBlack ? "" : "dark:invert"
+							} sm:h-48`}
+							alt="TSYP 11"
+							loading="lazy"
+						/>
 
-					<img
-						src={LightLogo}
-						className="mx-auto h-56 object-contain dark:hidden sm:h-60"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						About IEEE TSYP Congress.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						Tunisian Students and Young Professionals, is the annual congress
-						that brings together IEEE members in Tunisia. We are talking about
-						the 11th edition which is organized by IEEE ESSTHS SB. It is an
-						excellent opportunity to discuss current and future challenges in
-						science and engineering, to immerse in the IEEE national network and
-						to exchange experiences.
-					</h1>
-				</div>
-			</section>
-			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
-				<div className="col-span-6 mx-auto md:order-last">
-					<img
-						src={IeeeTunisia}
-						className="mx-auto h-52 object-contain sm:h-96"
-						alt="TSYP 11"
-						loading="lazy"
-					/>
-				</div>
-				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						About IEEE Tunisia Section.
-					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
-						The IEEE Tunisian Section aims to disseminate IEEE activities to all
-						corners of the country through educational and technical activities,
-						networking of people, and developing technology and its applications
-						for humanitarian challenges. The section supports chapters, special
-						interest groups, student activities, and student awards. IEEE is
-						anchored in the Tunisian engineering landscape with more than 43
-						Student Branches' spread over the different engineering schools,
-						faculties and universities
-					</h1>
-					<div>
-						<Link
-							// type="button"
-							to={"https://ieee.tn/"}
-							target="_blank"
-							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
-						>
-							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more IEEE Tunisia Section</span>
-							{/* </div> */}
-						</Link>
+						<img
+							src={LightLogo}
+							className="mx-auto h-56 object-contain dark:hidden sm:h-60"
+							alt="TSYP 11"
+							loading="lazy"
+						/>
 					</div>
-				</div>
-			</section>
+					<div className="col-span-6">
+						<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+							About IEEE TSYP Congress.
+						</h1>
+						<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+							Tunisian Students and Young Professionals, is the annual congress
+							that brings together IEEE members in Tunisia. We are talking about
+							the 11th edition which is organized by IEEE ESSTHS SB. It is an
+							excellent opportunity to discuss current and future challenges in
+							science and engineering, to immerse in the IEEE national network
+							and to exchange experiences.
+						</h1>
+					</div>
+				</section>
+			)}
+
+			{false && (
+				<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
+					<div className="col-span-6 mx-auto md:order-last">
+						<img
+							src={IeeeTunisia}
+							className="mx-auto h-52 object-contain sm:h-96"
+							alt="TSYP 11"
+							loading="lazy"
+						/>
+					</div>
+					<div className="col-span-6">
+						<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+							About IEEE Tunisia Section.
+						</h1>
+						<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+							The IEEE Tunisian Section aims to disseminate IEEE activities to
+							all corners of the country through educational and technical
+							activities, networking of people, and developing technology and
+							its applications for humanitarian challenges. The section supports
+							chapters, special interest groups, student activities, and student
+							awards. IEEE is anchored in the Tunisian engineering landscape
+							with more than 43 Student Branches' spread over the different
+							engineering schools, faculties and universities
+						</h1>
+						<div>
+							<Link
+								// type="button"
+								to={"https://ieee.tn/"}
+								target="_blank"
+								rel="noreferrer"
+								className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							>
+								{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
+								<span className="">Learn more IEEE Tunisia Section</span>
+								{/* </div> */}
+							</Link>
+						</div>
+					</div>
+				</section>
+			)}
+
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto">
 					<img
@@ -173,7 +172,7 @@ export default function HomePage() {
 				</div>
 				<div className="col-span-6">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
-						Hosted By IEEE ESSTHS Student Branch.
+						About IEEE ESSTHS Student Branch.
 					</h1>
 					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						IEEE ESSTHS Student Branch, founded in 2020, is home to more than
@@ -198,8 +197,9 @@ export default function HomePage() {
 					</div>
 				</div>
 			</section>
+
 			<section className="py-8 md:py-20">
-				<PreviousEditions />
+				<Chapters />
 			</section>
 
 			<section className="py-8 md:py-20">
@@ -243,6 +243,123 @@ export default function HomePage() {
 				</div>
 			</section>
 			{/* <SparrowSurvey /> */}
+		</div>
+	);
+}
+
+function Chapters() {
+	return (
+		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+			<div className="mx-auto max-w-7xl px-6 lg:px-8">
+				<h2 className="mb-12 text-center text-4xl font-bold">Our Chapters</h2>
+				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#740f0f] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/ras.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">RAS</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#c65503] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/cs.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">CS</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/ias.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">IAS</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/pes.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">PES</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#a14706] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/sight.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">SIGHT</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#4c1064] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/wie.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">WIE</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<a
+							href="https://past-tsyp.ieee.tn/2022/"
+							target="_blank"
+							rel="noreferrer"
+						>
+							<img
+								className="col-span-2 h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"https://essths.ieee.tn/logos/cis.png"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</a>
+						<h1 className="mt-4 text-center font-extrabold">CIS</h1>
+					</div>
+				</div>
+			</div>
 		</div>
 	);
 }
@@ -432,17 +549,17 @@ function PoweredBy() {
 	return (
 		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<h2 className="mb-12 text-center text-4xl font-bold">Powered By</h2>
+				<h2 className="mb-12 text-center text-4xl font-bold">Our Partners</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<a
 						href="https://ieee.tn/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={IeeeTunisia}
+							src={"https://essths.ieee.tn/partners/satoripop.png"}
 							alt="IeeeTunisia"
 							// width={200}
 							// height={200}
@@ -453,11 +570,11 @@ function PoweredBy() {
 						href="https://yp.ieee.tn/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={YpTunisia}
+							src={"https://essths.ieee.tn/partners/2b.png"}
 							alt="YpTunisia"
 							// width={200}
 							// height={200}
@@ -468,11 +585,45 @@ function PoweredBy() {
 						href="http://www.essths.rnu.tn/public/"
 						target="_blank"
 						rel="noreferrer"
-						className="overflow-hidden rounded-full p-4 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={essthsLogo}
+							src={
+								"https://gomycode.com/tn/wp-content/uploads/sites/26/2022/06/new-logo-e1679052959915.png"
+							}
+							alt="essthsLogo"
+							// width={200}
+							// height={200}
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="http://www.essths.rnu.tn/public/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<img
+							className="invertt col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={
+								"https://www.pristiniaiuniversity.tn/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpristini.4a4b659e.png&w=256&q=75"
+							}
+							alt="essthsLogo"
+							// width={200}
+							// height={200}
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="http://www.essths.rnu.tn/public/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<img
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={"https://essths.ieee.tn/partners/essths.png"}
 							alt="essthsLogo"
 							// width={200}
 							// height={200}
