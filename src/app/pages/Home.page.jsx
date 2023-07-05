@@ -70,7 +70,7 @@ export default function HomePage() {
 					</h1>
 
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						Hammam Sousse, Tunisia, since 2019
+						Hammam Sousse, Tunisia, since 2020
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
