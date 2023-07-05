@@ -25,10 +25,10 @@ export default function SponsorUsPage() {
 				</div>
 
 				<div className="col-span-6">
-					<h1 className="mb-4 text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
+					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Collaborate with us
 					</h1>
-					<h1 className="mb-4 text-lg font-medium text-gray-900 dark:text-gray-100 lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
+					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						We are excited to invite you to be a sponsor for our Tunisian
 						students who will be participating in the upcoming IEEE TSYP event.
 						This event will provide an excellent opportunity for our students to
@@ -54,7 +54,7 @@ export default function SponsorUsPage() {
 							to={tsypCollabPDF}
 							target="_blank"
 							rel="noreferrer"
-							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black dark:text-gray-100 dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
+							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
 							<span className="">Download collaboration proposal</span>
