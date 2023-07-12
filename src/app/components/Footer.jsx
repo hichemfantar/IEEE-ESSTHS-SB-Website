@@ -78,7 +78,7 @@ export default function Footer() {
 						</div>
 					)}
 					<a
-						href="https://www.facebook.com/ieee.tsyp"
+						href="https://www.facebook.com/essthsieee"
 						target="_blank"
 						rel="noreferrer"
 						className="text-gray-600 dark:text-gray-400"
@@ -87,7 +87,7 @@ export default function Footer() {
 						<FontAwesomeIcon icon={faFacebook} />
 					</a>
 					<a
-						href="https://www.instagram.com/ieee_tsyp/"
+						href="https://www.instagram.com/ieee.essths.student.branch/"
 						target="_blank"
 						rel="noreferrer"
 						className="text-gray-600 dark:text-gray-400"
@@ -95,7 +95,7 @@ export default function Footer() {
 					>
 						<FontAwesomeIcon icon={faInstagram} />
 					</a>
-					<a
+					{/* <a
 						href="https://www.linkedin.com/company/ieee-tsyp/"
 						target="_blank"
 						rel="noreferrer"
@@ -103,7 +103,7 @@ export default function Footer() {
 						aria-label="linkedin page"
 					>
 						<FontAwesomeIcon icon={faLinkedin} />
-					</a>
+					</a> */}
 				</div>
 			</div>
 		</footer>
