@@ -3,22 +3,22 @@ const routes = [
 		title: "Home",
 		href: "/",
 	},
-	{
-		title: "Tunisia",
-		href: "/tunisia",
-	},
+	// {
+	// 	title: "Tunisia",
+	// 	href: "/tunisia",
+	// },
 	{
 		title: "Speakers",
 		href: "/speakers",
 	},
-	{
-		title: "Schedule",
-		href: "/schedule",
-	},
-	{
-		title: "Sponsors",
-		href: "/expo",
-	},
+	// {
+	// 	title: "Schedule",
+	// 	href: "/schedule",
+	// },
+	// {
+	// 	title: "Sponsors",
+	// 	href: "/expo",
+	// },
 	// {
 	// 	title: "Expo",
 	// 	href: "/expo",
