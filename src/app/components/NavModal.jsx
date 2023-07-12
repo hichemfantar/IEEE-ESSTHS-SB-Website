@@ -114,9 +114,11 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 
 										<div className="flex items-center justify-between">
 											<div className="px-4 sm:px-6">
-												<Dialog.Title className="text-sm font-semibold md:text-base">
-													TSYP 11 © 2023
-												</Dialog.Title>
+												{false && (
+													<Dialog.Title className="text-sm font-semibold md:text-base">
+														TSYP 11 © 2023
+													</Dialog.Title>
+												)}
 											</div>
 
 											<div className="flex items-center gap-4 px-4 sm:px-6">
