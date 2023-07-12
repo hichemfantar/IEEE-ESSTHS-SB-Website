@@ -209,9 +209,11 @@ export default function HomePage() {
 				<IEEEPartners />
 			</section>
 
-			<section className="py-8 md:py-20">
-				<Speakers />
-			</section>
+			{false && (
+				<section className="py-8 md:py-20">
+					<Speakers />
+				</section>
+			)}
 
 			{/* <div className="hidden md:block">
 				<ScheduleOverview />
