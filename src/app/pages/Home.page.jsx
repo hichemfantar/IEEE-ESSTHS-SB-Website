@@ -213,9 +213,9 @@ export default function HomePage() {
 				<Speakers />
 			</section>
 
-			<div className="hidden md:block">
+			{/* <div className="hidden md:block">
 				<ScheduleOverview />
-			</div>
+			</div> */}
 
 			<section className="py-8 md:py-28">
 				<Team />
