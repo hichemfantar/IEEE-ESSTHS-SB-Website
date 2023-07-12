@@ -17,7 +17,7 @@ export default function ContactPage() {
 export function ContactForm({ title = "Contact us" }) {
 	return (
 		<section className="py-8 lg:py-8">
-			<div className="max-w-8xl mx-auto px-4 lg:px-4">
+			<div className="max-w-8xl mx-auto">
 				<div className="xl:mx-64 2xl:mx-80">
 					<h1 className="mb-4 text-4xl font-bold lg:mb-7 lg:text-center lg:text-5xl lg:font-extrabold lg:leading-none">
 						{title}
@@ -28,6 +28,21 @@ export function ContactForm({ title = "Contact us" }) {
 				</div>
 			</div>
 			<div className="grid gap-y-6 md:grid-cols-12 md:gap-12">
+				<div className="flex flex-col justify-center md:col-span-6">
+					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
+						Reach out via Email
+					</h1>
+					<h1 className="mb-6 text-3xl font-semibold md:mb-12   md:text-center lg:text-4xl lg:leading-none">
+						ieee.essths@gmail.com
+					</h1>
+					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
+						Or call us
+					</h1>
+					<h1 className="mb-4 text-3xl font-semibold   md:text-center lg:text-4xl lg:leading-none">
+						+216 56 479 019
+					</h1>
+				</div>
+
 				<div className="md:col-span-6">
 					<iframe
 						title="tsyp location"
@@ -42,20 +57,6 @@ export function ContactForm({ title = "Contact us" }) {
 						loading="lazy"
 						referrerpolicy="no-referrer-when-downgrade"
 					></iframe>
-				</div>
-				<div className="flex flex-col justify-center md:col-span-6">
-					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
-						Reach out via Email
-					</h1>
-					<h1 className="mb-6 text-3xl font-semibold md:mb-12   md:text-center lg:text-4xl lg:leading-none">
-						ieee.essths@gmail.com
-					</h1>
-					<h1 className="mb-4 text-3xl font-bold   md:text-center lg:text-4xl lg:font-extrabold lg:leading-none">
-						Or call us
-					</h1>
-					<h1 className="mb-4 text-3xl font-semibold   md:text-center lg:text-4xl lg:leading-none">
-						+216 56 479 019
-					</h1>
 				</div>
 			</div>
 			{false && (

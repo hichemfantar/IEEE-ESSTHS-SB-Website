@@ -7,10 +7,10 @@ const routes = [
 	// 	title: "Tunisia",
 	// 	href: "/tunisia",
 	// },
-	{
-		title: "Speakers",
-		href: "/speakers",
-	},
+	// {
+	// 	title: "Speakers",
+	// 	href: "/speakers",
+	// },
 	// {
 	// 	title: "Schedule",
 	// 	href: "/schedule",
