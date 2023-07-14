@@ -255,11 +255,7 @@ function Chapters() {
 				<h2 className="mb-12 text-center text-4xl font-bold">Our Chapters</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#740f0f] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ras.png"}
@@ -270,11 +266,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">RAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#c65503] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/cs.png"}
@@ -285,11 +277,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">CS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ias.png"}
@@ -300,11 +288,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">IAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/pes.png"}
@@ -315,11 +299,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">PES</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#cfd9dd] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={
@@ -332,11 +312,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">AESS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#a14706] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/sight.png"}
@@ -347,11 +323,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">SIGHT</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#4c1064] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/wie.png"}
@@ -362,11 +334,7 @@ function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">WIE</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a
-							href="https://past-tsyp.ieee.tn/2022/"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="#" target="_blank" rel="noreferrer">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/cis.png"}
