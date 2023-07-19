@@ -205,9 +205,11 @@ export default function HomePage() {
 				<PoweredBy />
 			</section>
 
-			<section className="py-8 md:py-20">
-				<IEEEPartners />
-			</section>
+			{false && (
+				<section className="py-8 md:py-20">
+					<IEEEPartners />
+				</section>
+			)}
 
 			{false && (
 				<section className="py-8 md:py-20">
