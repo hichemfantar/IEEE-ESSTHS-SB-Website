@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
 import NavModal from "./NavModal";
+import SmallLogo from "../../assets/logo/logo-10%.png";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
@@ -20,9 +21,9 @@ export default function Navigation() {
 					<Link to="/" className="flex items-center">
 						<img
 							loading="eager"
-							src={"https://essths.ieee.tn/logo.png"}
+							src={SmallLogo}
 							className={`mr-3 h-10 invert dark:invert-0 sm:h-12`}
-							alt="TSYP 11"
+							alt="IEEE ESSTHS"
 						/>
 						{/* <svg
 							className="mr-3 h-6 fill-gray-900 dark:fill-gray-100 sm:h-9"
