@@ -3,7 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
 import NavModal from "./NavModal";
-import SmallLogo from "../../assets/logo/logo-10%.png";
+import SmallLogo from "../../assets/logo/logo-10-percent.png";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
