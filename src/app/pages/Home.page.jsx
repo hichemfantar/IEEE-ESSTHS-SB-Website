@@ -10,6 +10,7 @@ import TSYP2018 from "../../assets/tsyp-editions/tsyp-2018.png";
 import TSYP2019 from "../../assets/tsyp-editions/tsyp-2019.jpg";
 import TSYP2020 from "../../assets/tsyp-editions/tsyp-2020.jpg";
 import TSYP2021 from "../../assets/tsyp-editions/tsyp-2021.jpg";
+import mosmosetImage from "../../assets/ieee-essths/mosmoset.png";
 import IeeeTunisia from "../../assets/ieee-tunisia.png";
 import YpTunisia from "../../assets/yp-tunisia-section.png";
 import essthsLogo from "../../assets/essths.png";
@@ -50,7 +51,7 @@ export default function HomePage() {
 								loading="lazy"
 							/> */}
 							<img
-								src={"https://essths.ieee.tn/mosmoset.png"}
+								src={mosmosetImage}
 								className="mx-auto mb-2 h-56 object-contain drop-shadow-lg sm:h-52"
 								alt="TSYP 11"
 								loading="lazy"
