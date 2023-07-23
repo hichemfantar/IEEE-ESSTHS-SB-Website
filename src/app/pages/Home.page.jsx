@@ -545,7 +545,7 @@ function PoweredBy() {
 				<h2 className="mb-12 text-center text-4xl font-bold">Our Partners</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<a
-						href="https://ieee.tn/"
+						href="https://www.satoripop.com/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
@@ -553,14 +553,14 @@ function PoweredBy() {
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={"https://essths.ieee.tn/partners/satoripop.png"}
-							alt="IeeeTunisia"
+							alt="satoripop"
 							// width={200}
 							// height={200}
 							loading="lazy"
 						/>
 					</a>
 					<a
-						href="https://yp.ieee.tn/"
+						href="https://2betrading.com/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
@@ -568,14 +568,14 @@ function PoweredBy() {
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={"https://2betrading.com/img/2b-trading-logo-1517163526.jpg"}
-							alt="YpTunisia"
+							alt="2betrading"
 							// width={200}
 							// height={200}
 							loading="lazy"
 						/>
 					</a>
 					<a
-						href="http://www.essths.rnu.tn/public/"
+						href="https://gomycode.com/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
@@ -585,14 +585,14 @@ function PoweredBy() {
 							src={
 								"https://gomycode.com/tn/wp-content/uploads/sites/26/2022/06/new-logo-e1679052959915.png"
 							}
-							alt="essthsLogo"
+							alt="gomycode"
 							// width={200}
 							// height={200}
 							loading="lazy"
 						/>
 					</a>
 					<a
-						href="http://www.essths.rnu.tn/public/"
+						href="https://www.pristiniaiuniversity.tn/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
@@ -602,7 +602,7 @@ function PoweredBy() {
 							src={
 								"https://www.pristiniaiuniversity.tn/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpristini.4a4b659e.png&w=256&q=75"
 							}
-							alt="essthsLogo"
+							alt="pristini"
 							// width={200}
 							// height={200}
 							loading="lazy"
@@ -617,7 +617,7 @@ function PoweredBy() {
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={"https://essths.ieee.tn/partners/essths.png"}
-							alt="essthsLogo"
+							alt="essths"
 							// width={200}
 							// height={200}
 							loading="lazy"
