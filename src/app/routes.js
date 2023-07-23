@@ -27,6 +27,10 @@ const routes = [
 		title: "Team",
 		href: "/team",
 	},
+	{
+		title: "Chapters",
+		href: "/chapters",
+	},
 	// {
 	// 	title: "Virtual",
 	// 	href: "/virtual",
