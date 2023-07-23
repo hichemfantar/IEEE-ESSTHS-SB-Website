@@ -14,7 +14,7 @@ export default function Footer() {
 		<footer className="container mx-auto p-4 md:px-6 md:py-8">
 			<div className="flex flex-col items-center gap-4 sm:justify-between lg:flex-row">
 				<div>
-					{false && (
+					{"false" && (
 						<Link
 							to="https://hichemfantar.netlify.app/"
 							target="_blank"
@@ -36,8 +36,9 @@ export default function Footer() {
 						className="mr-3 h-8"
 						alt="TSYP 11"
 					/> */}
-							<div className="flex flex-wrap gap-2 font-['Tangerine'] text-3xl font-semibold dark:font-normal md:text-4xl ">
-								Brought to life by Hichem Fantar
+							{/* <div className="flex flex-wrap gap-2 font-['Tangerine'] text-3xl font-semibold dark:font-normal md:text-4xl "> */}
+							<div className="font-semibold">
+								Designed by Hichem Fantar
 								{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 							</div>
 							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold ">
@@ -113,15 +114,15 @@ export default function Footer() {
 					>
 						<FontAwesomeIcon icon={faInstagram} />
 					</a>
-					{/* <a
-						href="https://www.linkedin.com/company/ieee-tsyp/"
+					<a
+						href="https://www.linkedin.com/in/ieee-essths-student-branch-58337b213/"
 						target="_blank"
 						rel="noreferrer"
 						className="text-gray-600 dark:text-gray-400"
 						aria-label="linkedin page"
 					>
 						<FontAwesomeIcon icon={faLinkedin} />
-					</a> */}
+					</a>
 				</div>
 			</div>
 		</footer>

@@ -116,7 +116,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 											<div className="px-4 sm:px-6">
 												{false && (
 													<Dialog.Title className="text-sm font-semibold md:text-base">
-														TSYP 11 © 2023
+														IEEE © 2023
 													</Dialog.Title>
 												)}
 											</div>
@@ -140,18 +140,22 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												>
 													<FontAwesomeIcon icon={faInstagram} />
 												</a>
-												{/* <a
-													href="https://www.linkedin.com/company/ieee-tsyp/"
+												<a
+													href="https://www.linkedin.com/in/ieee-essths-student-branch-58337b213/"
 													target="_blank"
 													rel="noreferrer"
 													className="text-gray-600 dark:text-gray-400"
 													aria-label="linkedin page"
 												>
 													<FontAwesomeIcon icon={faLinkedin} />
-												</a> */}
+												</a>
 
 												<ThemeToggle />
 											</div>
+										</div>
+										<div className="my-2 text-center font-semibold">
+											Designed by Hichem Fantar
+											{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 										</div>
 									</div>
 								</Dialog.Panel>
