@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 import cs_cover from "../../assets/chapters/cs_cover.jpg";
 import ias_cover from "../../assets/chapters/ias_cover.jpg";
@@ -9,13 +9,18 @@ import sight_cover from "../../assets/chapters/sight_cover.jpg";
 
 export default function ChapterPage() {
 	const { chapterSlug } = useParams();
+	const navigate = useNavigate();
 	const currentChapter = chapters.find((s) => s.slug === chapterSlug);
+
+	if (!currentChapter) {
+		return navigate("/");
+	}
 
 	return (
 		<div>
 			<div className="flex items-center justify-center">
 				<img
-					className="mb-8 h-[42rem] rounded-2xl object-cover shadow-lg"
+					className="mb-8 rounded-2xl object-cover shadow-lg md:h-[42rem]"
 					src={currentChapter.excom_image}
 					alt=""
 				/>
