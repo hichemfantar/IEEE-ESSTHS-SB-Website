@@ -21,11 +21,12 @@ import IASLogo from "../../assets/ias-logo-shadowbg.png";
 import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
 import { Link } from "react-router-dom";
-import Team from "../components/Team";
+import ExCom from "../components/ExCom";
 import ThreeExperience from "../components/ThreeExperience";
 import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
 import { useMediaQuery } from "usehooks-ts";
+import Chairs from "../components/Chairs";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -223,7 +224,10 @@ export default function HomePage() {
 			</div> */}
 
 			<section className="py-8 md:py-28">
-				<Team />
+				<ExCom />
+			</section>
+			<section className="py-8 md:py-28">
+				<Chairs />
 			</section>
 
 			<section className="py-8 md:py-28">

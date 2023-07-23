@@ -4,7 +4,7 @@ import hichem from "../../assets/OC pictures/hichem.jpg";
 import kayoum from "../../assets/OC pictures/kayoum.png";
 import loua from "../../assets/OC pictures/loua.png";
 
-export default function Team() {
+export default function ExCom() {
 	return (
 		<div>
 			<div className="mb-8 text-4xl font-bold">
@@ -58,26 +58,6 @@ export const teamData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "rauchg",
@@ -101,26 +81,6 @@ export const teamData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "rauchg",
@@ -144,26 +104,6 @@ export const teamData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "rauchg",
@@ -187,26 +127,6 @@ export const teamData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "rauchg",
@@ -230,26 +150,6 @@ export const teamData = [
 			title: "Keynote",
 			description:
 				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-			descriptionWithFormatting: {
-				value: {
-					schema: "dast",
-					document: {
-						type: "root",
-						children: [
-							{
-								type: "paragraph",
-								children: [
-									{
-										type: "span",
-										value:
-											"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
-									},
-								],
-							},
-						],
-					},
-				},
-			},
 			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
 		},
 		slug: "rauchg",

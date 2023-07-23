@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link, useParams } from "react-router-dom";
 import StyledButton from "./StyledButton";
-import { teamData } from "./Team";
+import { teamData } from "./ExCom";
 
 export default function TeamMember() {
 	const { teamMemberSlug } = useParams();

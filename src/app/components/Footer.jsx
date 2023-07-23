@@ -70,6 +70,24 @@ export default function Footer() {
 									</NavLink>
 								</li>
 							))}
+						<li className="">
+							<NavLink
+								className={({ isActive, isPending }) =>
+									twMerge(
+										"hover: focus: block p-4 px-4 text-gray-600 transition-all duration-75 hover:underline focus:font-bold dark:text-gray-400 dark:hover:text-gray-200",
+										isActive
+											? "font-bold  dark:text-gray-200"
+											: isPending
+											? ""
+											: ""
+									)
+								}
+								to={"https://tsyp.ieee.tn/"}
+								target="_blank"
+							>
+								TSYP 11
+							</NavLink>
+						</li>
 					</ul>
 
 					{true && (
