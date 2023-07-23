@@ -18,6 +18,10 @@ import TeamMember from "./app/components/TeamMember.jsx";
 import ContactPage from "./app/pages/Contact.page.jsx";
 import SponsorUsPage from "./app/pages/SponsorUs.page.jsx";
 import Phase from "./app/components/Phase.jsx";
+import Chapter from "./app/components/Chapter.jsx";
+import TeamPage from "./app/pages/Team.page.jsx";
+import ChapterPage from "./app/pages/Chapter.page.jsx";
+import ChaptersPage from "./app/pages/Chapters.page.jsx";
 
 // setInitialTheme();
 
@@ -55,8 +59,16 @@ const router = createBrowserRouter([
 				element: <Speaker />,
 			},
 			{
+				path: "chapters",
+				element: <ChaptersPage />,
+			},
+			{
+				path: "chapters/:chapterSlug",
+				element: <ChapterPage />,
+			},
+			{
 				path: "team",
-				element: <ExCom />,
+				element: <TeamPage />,
 			},
 			// {
 			// 	path: "virtual",

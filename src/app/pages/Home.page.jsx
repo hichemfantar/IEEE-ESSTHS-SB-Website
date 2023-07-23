@@ -223,14 +223,14 @@ export default function HomePage() {
 				<ScheduleOverview />
 			</div> */}
 
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-12">
 				<ExCom />
 			</section>
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-12">
 				<Chairs />
 			</section>
 
-			<section className="py-8 md:py-28">
+			<section className="py-8 md:py-12">
 				<div className="mx-auto">
 					<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-5xl lg:font-extrabold lg:leading-none">
 						Find us here.
@@ -255,58 +255,58 @@ export default function HomePage() {
 	);
 }
 
-function Chapters() {
+export function Chapters() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-24">
+		<div className="hadow-xl bbg-white rounded-2xl">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">Our Chapters</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/ras">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#740f0f] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ras.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">RAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/cs">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#c65503] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/cs.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">CS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/ias">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ias.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">IAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/pes">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/pes.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">PES</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="#">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#cfd9dd] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={
@@ -315,40 +315,40 @@ function Chapters() {
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">AESS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/sight">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#a14706] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/sight.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">SIGHT</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="/chapters/wie">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#4c1064] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/wie.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">WIE</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<a href="#" target="_blank" rel="noreferrer">
+						<Link to="#">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/cis.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
-						</a>
+						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">CIS</h1>
 					</div>
 				</div>
@@ -540,7 +540,7 @@ function PreviousEditions() {
 
 function PoweredBy() {
 	return (
-		<div className="hadow-xl bbg-white rounded-2xl py-24 sm:py-10">
+		<div className="hadow-xl bbg-white rounded-2xl">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<h2 className="mb-12 text-center text-4xl font-bold">Our Partners</h2>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
