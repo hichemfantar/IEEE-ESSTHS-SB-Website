@@ -153,7 +153,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												<ThemeToggle />
 											</div>
 										</div>
-										<div className="my-2 text-center font-semibold">
+										<div className="mt-2 text-center font-semibold">
 											Designed by Hichem Fantar
 											{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 										</div>
