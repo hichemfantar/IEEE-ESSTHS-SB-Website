@@ -16,7 +16,7 @@ export default function Footer() {
 				<div>
 					{"false" && (
 						<Link
-							to="https://hichemfantar.netlify.app/"
+							to="https://hichemfantar.com/"
 							target="_blank"
 							rel="noreferrer"
 							className="flex items-center"
