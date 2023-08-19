@@ -2,26 +2,23 @@ import nour_jeday from "../../assets/OC pictures/nour_jeday.jpg";
 import iheb_kortas from "../../assets/OC pictures/iheb_kortas.jpg";
 import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
 import arije_bh from "../../assets/OC pictures/arije_bh.jpg";
-import mayssa_ba from "../../assets/OC pictures/mayssa_ba.jpg";
-import soulaima_beltaif from "../../assets/OC pictures/soulaima_beltaif.jpg";
-import mehdi_selten from "../../assets/OC pictures/mehdi_selten.jpg";
 
 export default function HrDepartment() {
 	return (
 		<div>
 			<div className="mb-8 text-4xl font-bold">Meet the HR Department</div>
-			<div className="grid grid-cols-12 gap-4 md:gap-4">
+			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker) => (
 						// <Link
 						// 	key={speaker.name}
 						// 	to={speaker.name}
-						// 	className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
+						// 	className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 						// >
 						<div
 							key={speaker.name}
-							className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
+							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
 						>
 							<img
 								style={{
@@ -29,7 +26,7 @@ export default function HrDepartment() {
 								}}
 								src={speaker.imageSmall.url}
 								alt=""
-								className="mb-2 aspect-[12/16] w-full rounded-lg object-cover sm:aspect-[12/16]"
+								className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
 								loading="lazy"
 							/>
 							<div className="font-bold">{speaker.name}</div>
@@ -122,7 +119,7 @@ export const teamData = [
 		active: true,
 		name: "Mayssa Ben Abdessalem",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
-		title: "Public Relations Chief",
+		title: "General Secretary",
 		talk: {
 			title: "Keynote",
 			description:
@@ -138,12 +135,12 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: mayssa_ba,
+			url: "https://essths.ieee.tn/excoms/sg.jpg",
 		},
 	},
 	{
 		active: true,
-		name: "Data scientist",
+		name: "Treasurer",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "Mehdi Selten",
 		talk: {
@@ -161,12 +158,12 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: mehdi_selten,
+			url: "https://essths.ieee.tn/excoms/treasurer.jpg",
 		},
 	},
 	{
 		active: true,
-		name: "Data Analyst",
+		name: "Treasurer",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "Soulaima Beltaif",
 		talk: {
@@ -184,7 +181,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: soulaima_beltaif,
+			url: "https://essths.ieee.tn/excoms/treasurer.jpg",
 		},
 	},
 	{
