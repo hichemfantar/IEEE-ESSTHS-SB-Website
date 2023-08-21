@@ -1,6 +1,8 @@
-import nour_jeday from "../../assets/OC pictures/nour_jeday.jpg";
-import iheb_kortas from "../../assets/OC pictures/iheb_kortas.jpg";
-import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
+import salma_achour from "../../assets/OC pictures/salma_achour.jpg";
+import salma_ghedamsi from "../../assets/OC pictures/salma_ghedamsi.jpg";
+import nayssen_chebbi from "../../assets/OC pictures/nayssen_chebbi.jpg";
+import kacem_obey from "../../assets/OC pictures/kacem_obey.jpg";
+import imen_ben_hassine from "../../assets/OC pictures/imen_ben_hassine.jpg";
 
 export default function BusinessDepartment() {
 	return (
@@ -67,7 +69,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: ahmed_hmila,
+			url: salma_ghedamsi,
 		},
 	},
 	{
@@ -90,7 +92,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: iheb_kortas,
+			url: nayssen_chebbi,
 		},
 	},
 	{
@@ -113,7 +115,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: nour_jeday,
+			url: salma_achour,
 		},
 	},
 	{
@@ -136,7 +138,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://essths.ieee.tn/excoms/sg.jpg",
+			url: kacem_obey,
 		},
 	},
 	{
@@ -159,7 +161,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://essths.ieee.tn/excoms/treasurer.jpg",
+			url: imen_ben_hassine,
 		},
 	},
 ];
