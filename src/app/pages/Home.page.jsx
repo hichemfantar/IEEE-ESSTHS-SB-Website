@@ -27,6 +27,9 @@ import { ScheduleOverview } from "../components/schedule/ScheduleList";
 import Speakers from "../components/Speakers";
 import { useMediaQuery } from "usehooks-ts";
 import Chairs from "../components/Chairs";
+import MultimediaDepartment from "../components/MultimediaDepartment";
+import BusinessDepartment from "../components/BusinessDepartment";
+import HrDepartment from "../components/HrDepartment";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -228,6 +231,15 @@ export default function HomePage() {
 			</section>
 			<section className="py-8 md:py-12">
 				<Chairs />
+			</section>
+			<section className="py-8 md:py-12">
+				<HrDepartment />
+			</section>
+			<section className="py-8 md:py-12">
+				<BusinessDepartment />
+			</section>
+			<section className="py-8 md:py-12">
+				<MultimediaDepartment />
 			</section>
 
 			<section className="py-8 md:py-12">
