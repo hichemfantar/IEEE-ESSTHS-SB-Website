@@ -2,6 +2,8 @@ import nour_jeday from "../../assets/OC pictures/nour_jeday.jpg";
 import iheb_kortas from "../../assets/OC pictures/iheb_kortas.jpg";
 import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
 import arije_bh from "../../assets/OC pictures/arije_bh.jpg";
+import mayssa_ba from "../../assets/OC pictures/mayssa_ba.jpg";
+import soulaima_beltaif from "../../assets/OC pictures/soulaima_beltaif.jpg";
 
 export default function HrDepartment() {
 	return (
@@ -135,7 +137,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://essths.ieee.tn/excoms/sg.jpg",
+			url: mayssa_ba,
 		},
 	},
 	{
@@ -181,7 +183,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://essths.ieee.tn/excoms/treasurer.jpg",
+			url: soulaima_beltaif,
 		},
 	},
 	{

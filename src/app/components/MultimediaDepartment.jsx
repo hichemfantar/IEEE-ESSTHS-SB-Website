@@ -8,7 +8,7 @@ export default function MultimediaDepartment() {
 	return (
 		<div>
 			<div className="mb-8 text-4xl font-bold">
-				Meet the Business Department
+				Meet the Multimedia Department
 			</div>
 			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
 				{teamData
