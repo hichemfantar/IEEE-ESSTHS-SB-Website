@@ -110,7 +110,7 @@ export default function Navigation() {
 
 						<Link
 							target="_blank"
-							to="https://docs.google.com/forms/d/e/1FAIpQLSdO3jzqgc1eKsHCSBqbTuxARac6pC7_s0qmN1Qn4q-beKxs7w/viewform"
+							to="https://forms.gle/St6UBJ9pr4vswado9"
 							className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg bg-gradient-to-br from-purple-500 to-pink-500 p-0.5 text-sm font-medium  transition-shadow hover:text-white focus:outline-none focus:ring-4 focus:ring-purple-200 group-hover:from-purple-500 group-hover:to-pink-500  dark:focus:ring-purple-800"
 						>
 							{/* <button

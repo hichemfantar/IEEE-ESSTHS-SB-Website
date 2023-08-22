@@ -1,8 +1,4 @@
-import asma from "../../assets/OC pictures/asma.png";
-import bassem from "../../assets/OC pictures/bassem.png";
-import hichem from "../../assets/OC pictures/hichem.jpg";
-import kayoum from "../../assets/OC pictures/kayoum.png";
-import loua from "../../assets/OC pictures/loua.png";
+import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
 
 export default function ExCom() {
 	return (
@@ -118,6 +114,30 @@ export const teamData = [
 			url: "https://essths.ieee.tn/excoms/webmaster.jpg",
 		},
 	},
+	{
+		active: true,
+		name: "Ahmed Hmila",
+		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
+		title: "Human Relations Chief",
+		talk: {
+			title: "Keynote",
+			description:
+				"TSYP 11 Conf kicks off with Vercel CEO Guillermo Rauch (@rauchg) revealing the latest announcements, features, and improvements. He's joined by Lee, Lydia, and Delba to hear the latest Next.js updates.",
+			youtube: "https://www.youtube.com/watch?v=NiknNI_0J48",
+		},
+		slug: "rauchg",
+		twitterUsername: "rauchg",
+		company: {
+			name: "Vercel",
+		},
+		image: {
+			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+		},
+		imageSmall: {
+			url: ahmed_hmila,
+		},
+	},
+
 	{
 		active: true,
 		name: "Yasmine Douik",
