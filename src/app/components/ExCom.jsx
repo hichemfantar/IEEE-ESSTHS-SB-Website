@@ -118,7 +118,7 @@ export const teamData = [
 		active: true,
 		name: "Ahmed Hmila",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
-		title: "Human Relations Chief",
+		title: "Human Resources Chief",
 		talk: {
 			title: "Keynote",
 			description:
