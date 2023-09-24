@@ -70,7 +70,7 @@ export const teamData = [
 	},
 	{
 		active: true,
-		name: "Wala Abouda",
+		name: "Ahmed Hmila",
 		bio: "Lydia Hallie is a Staff Developer Advocate who primarily works with JavaScript, React, Node, GraphQL, and serverless technologies. She also spends her time mentoring and doing in-person training sessions.",
 		title: "Vice Chair",
 		talk: {
@@ -88,7 +88,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: "https://essths.ieee.tn/excoms/vice.jpg",
+			url: ahmed_hmila,
 		},
 	},
 	{
