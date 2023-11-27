@@ -75,7 +75,7 @@ export default function HomePage() {
 					</h1>
 
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
-						Hammam Sousse, Tunisia, since 2020
+						Hammam Sousse, Tunisia, since 2021
 					</h1>
 				</div>
 				{/* <div className="col-span-6">
@@ -320,7 +320,7 @@ export function Chapters() {
 					<div className="transition hover:scale-105">
 						<Link to="#">
 							<img
-								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#cfd9dd] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#d9e2e5] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={
 									"https://ieee-aess.org/files/ieeeaess/styles/large/public/images/media/photos/aess_logo_2011_no-text_COLOR_300dpi_registered.png?itok=k_fO3RlZ"
 								}
@@ -352,16 +352,29 @@ export function Chapters() {
 						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">WIE</h1>
 					</div>
+					{false && (
+						<div className="transition hover:scale-105">
+							<Link to="#">
+								<img
+									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+									src={"https://essths.ieee.tn/logos/cis.png"}
+									alt="TSYP2022"
+									loading="lazy"
+								/>
+							</Link>
+							<h1 className="mt-4 text-center text-lg font-extrabold">CIS</h1>
+						</div>
+					)}
 					<div className="transition hover:scale-105">
 						<Link to="#">
 							<img
-								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/cis.png"}
+								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"/assets/ies.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
 						</Link>
-						<h1 className="mt-4 text-center text-lg font-extrabold">CIS</h1>
+						<h1 className="mt-4 text-center text-lg font-extrabold">IES</h1>
 					</div>
 				</div>
 			</div>
