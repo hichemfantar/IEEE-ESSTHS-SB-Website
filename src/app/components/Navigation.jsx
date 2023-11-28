@@ -3,7 +3,8 @@ import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
 import routes from "../routes";
 import NavModal from "./NavModal";
-import SmallLogo from "../../assets/logo/logo-10-percent.png";
+// import SmallLogo from "../../assets/logo/logo-10-percent.png";
+import SmallLogo from "../../assets/logo/rsz_d2ycfxl.png";
 import Logo from "../../assets/main logo black (Custom).png";
 import LightLogo from "../../assets/main logo_2 (Custom).png";
 import LogoOnBlack from "../../assets/Logo on black.png";
@@ -22,7 +23,7 @@ export default function Navigation() {
 						<img
 							loading="eager"
 							src={SmallLogo}
-							className={`mr-3 h-10 invert dark:invert-0 sm:h-12`}
+							className={`mr-3 h-10 sm:h-12`}
 							alt="IEEE ESSTHS"
 						/>
 						{/* <svg

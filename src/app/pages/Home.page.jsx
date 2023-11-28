@@ -181,21 +181,21 @@ export default function HomePage() {
 					<h1 className="mb-4 text-lg font-medium   lg:mb-7 lg:text-start lg:text-xl lg:font-normal">
 						IEEE ESSTHS Student Branch, founded in 2020, is home to more than
 						280 members, making it the largest Student Branch in Sousse, and 7th
-						in Tunisia Section. It encompasses 5 Technical Chapters: CIS, CS,
-						IAS, PES, RAS, and 2 Affinity Groups: SIGHT & WIE. We have had the
-						honor of receiving more than 12 worldwide IEEE Awards across all
+						in Tunisia Section. It encompasses 5 Technical Chapters: AESS, CS,
+						IAS, PES, RAS, IES, and 2 Affinity Groups: SIGHT & WIE. We have had
+						the honor of receiving more than 12 worldwide IEEE Awards across all
 						fields through the dedication and commitment of each of our members.
 					</h1>
 					<div>
 						<Link
 							// type="button"
-							to={"https://essths.ieee.tn/"}
+							to={"https://essths.rnu.tn/public/"}
 							target="_blank"
 							rel="noreferrer"
 							className="relative inline min-w-[120px] items-center justify-center rounded-full border-2 border-gray-600 px-6 py-2 text-center text-sm font-medium transition hover:border-gray-900 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:border-gray-400 dark:bg-black  dark:hover:bg-white dark:hover:bg-opacity-20 dark:focus:ring-blue-800"
 						>
 							{/* <div className="flex flex-wrap items-center justify-start gap-2"> */}
-							<span className="">Learn more about ESSTHS SB</span>
+							<span className="">Learn more about ESSTHS</span>
 							{/* </div> */}
 						</Link>
 					</div>
