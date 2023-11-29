@@ -17,6 +17,7 @@ import essthsLogo from "../../assets/essths.png";
 import IEEER8 from "../../assets/IEEE R8.svg";
 import R8_SAC from "../../assets/R8_SAC.png";
 import aess from "../../assets/aess.png";
+import iesLogo from "../../assets/ies.png";
 import IASLogo from "../../assets/ias-logo-shadowbg.png";
 import TSYP2021Dark from "../../assets/tsyp-editions/tsyp-2021-dark.png";
 import TSYP2022 from "../../assets/tsyp-editions/tsyp-2022.png";
@@ -369,7 +370,7 @@ export function Chapters() {
 						<Link to="#">
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"/assets/ies.png"}
+								src={iesLogo}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
