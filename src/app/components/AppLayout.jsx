@@ -1,8 +1,10 @@
 import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import { motion } from "framer-motion";
-import { Outlet, ScrollRestoration, useLocation } from "react-router-dom";
+import { Link, Outlet, ScrollRestoration, useLocation } from "react-router-dom";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
+import mosmos from "../../assets/mosmos.png";
+import { twMerge } from "tailwind-merge";
 
 const pageVariants = {
 	initial: {
@@ -83,7 +85,14 @@ export default function AppLayout({ children }) {
 
 				<Footer />
 			</div> */}
-
+			<Link to="https://www.facebook.com/essthsieee" target="_blank">
+				<img
+					src={mosmos}
+					className={twMerge(
+						"fixed right-0 top-16 h-24 -rotate-45 object-contain transition hover:scale-110 md:top-auto md:bottom-24"
+					)}
+				/>
+			</Link>
 			<ScrollRestoration />
 			<ReactQueryDevtools initialIsOpen={false} />
 		</>

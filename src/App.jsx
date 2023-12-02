@@ -22,6 +22,7 @@ import Chapter from "./app/components/Chapter.jsx";
 import TeamPage from "./app/pages/Team.page.jsx";
 import ChapterPage from "./app/pages/Chapter.page.jsx";
 import ChaptersPage from "./app/pages/Chapters.page.jsx";
+import ActivitiesPage from "./app/pages/Activities.page.jsx";
 
 // setInitialTheme();
 
@@ -70,6 +71,11 @@ const router = createBrowserRouter([
 				path: "team",
 				element: <TeamPage />,
 			},
+			{
+				path: "activities",
+				element: <ActivitiesPage />,
+			},
+
 			// {
 			// 	path: "virtual",
 			// 	element: <Phase />,

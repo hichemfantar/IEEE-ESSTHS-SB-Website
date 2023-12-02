@@ -31,6 +31,8 @@ import Chairs from "../components/Chairs";
 import MultimediaDepartment from "../components/MultimediaDepartment";
 import BusinessDepartment from "../components/BusinessDepartment";
 import HrDepartment from "../components/HrDepartment";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 
 export default function HomePage() {
 	const matches = useMediaQuery("(min-width: 768px)");
@@ -268,14 +270,24 @@ export default function HomePage() {
 	);
 }
 
-export function Chapters() {
+export function Chapters({ title = "Our Chapters", isActivityMode = false }) {
 	return (
 		<div className="hadow-xl bbg-white rounded-2xl">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
-				<h2 className="mb-12 text-center text-4xl font-bold">Our Chapters</h2>
+				<div className="mb-12 flex items-center justify-center gap-3">
+					{/* <FontAwesomeIcon icon={faGlobe} className="text-xl" /> */}
+					<h2 className="text-center text-4xl font-bold">{title}</h2>
+				</div>
 				<div className="ggrid mx-auto mt-10 flex max-w-lg grid-cols-4 flex-wrap items-center justify-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/ras">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=440899279"
+									: "/chapters/ras"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#740f0f] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ras.png"}
@@ -286,7 +298,14 @@ export function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">RAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/cs">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1163012429"
+									: "/chapters/cs"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#c65503] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/cs.png"}
@@ -297,7 +316,14 @@ export function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">CS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/ias">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1095251413"
+									: "/chapters/ias"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/ias.png"}
@@ -308,7 +334,14 @@ export function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">IAS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/pes">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=136762747"
+									: "/chapters/pes"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/pes.png"}
@@ -332,7 +365,14 @@ export function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">AESS</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/sight">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=24605412"
+									: "/chapters/sight"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#a14706] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/sight.png"}
@@ -343,7 +383,14 @@ export function Chapters() {
 						<h1 className="mt-4 text-center text-lg font-extrabold">SIGHT</h1>
 					</div>
 					<div className="transition hover:scale-105">
-						<Link to="/chapters/wie">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1207037058"
+									: "/chapters/wie"
+							}
+						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#4c1064] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={"https://essths.ieee.tn/logos/wie.png"}
@@ -376,6 +423,24 @@ export function Chapters() {
 							/>
 						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">IES</h1>
+					</div>
+					<div className="transition hover:scale-105">
+						<Link
+							target="_blank"
+							to="https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1771098931"
+							className=""
+						>
+							<div className="col-span-2 mx-auto flex h-36 w-64 items-center justify-center rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1">
+								<FontAwesomeIcon icon={faGlobe} className="text-7xl" />
+								{/* <img
+								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={iesLogo}
+								alt="TSYP2022"
+								loading="lazy"
+							/> */}
+							</div>
+						</Link>
+						<h1 className="mt-4 text-center text-lg font-extrabold">General</h1>
 					</div>
 				</div>
 			</div>
