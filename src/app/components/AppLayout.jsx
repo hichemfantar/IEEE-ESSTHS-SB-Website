@@ -89,8 +89,9 @@ export default function AppLayout({ children }) {
 				<img
 					src={mosmos}
 					className={twMerge(
-						"fixed right-0 top-16 h-24 -rotate-45 object-contain transition hover:scale-110 md:top-auto md:bottom-24"
+						"fixed top-20 h-24 rotate-45 object-contain transition hover:scale-110 md:right-0 md:top-auto md:bottom-24 md:-rotate-45"
 					)}
+					alt="mosmos mascot"
 				/>
 			</Link>
 			<ScrollRestoration />

@@ -80,6 +80,40 @@ export default function HomePage() {
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						Hammam Sousse, Tunisia, since 2021
 					</h1>
+
+					<div className="mt-14 flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:mt-20">
+						{[
+							{
+								title: "Members",
+								value: "300",
+							},
+							{
+								title: "Events",
+								value: "200",
+							},
+							{
+								title: "Awards",
+								value: "15",
+							},
+							{
+								title: "Partners",
+								value: "5",
+							},
+							{
+								title: "Officers",
+								value: "40",
+							},
+						].map((e) => (
+							<div className="flex flex-col gap-2">
+								<h1 className="text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+									{e.value}
+								</h1>
+								<h1 className="text-center text-xl font-bold tracking-tight lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
+									{e.title}
+								</h1>
+							</div>
+						))}
+					</div>
 				</div>
 				{/* <div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
@@ -270,7 +304,10 @@ export default function HomePage() {
 	);
 }
 
-export function Chapters({ title = "Our Chapters", isActivityMode = false }) {
+export function Chapters({
+	title = "Our Chapters & AGs",
+	isActivityMode = false,
+}) {
 	return (
 		<div className="hadow-xl bbg-white rounded-2xl">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
