@@ -1,4 +1,4 @@
-import { useNavigate, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 
 import cs_cover from "../../assets/chapters/cs_cover.jpg";
 import ias_cover from "../../assets/chapters/ias_cover.jpg";
@@ -6,6 +6,8 @@ import pes_cover from "../../assets/chapters/pes_cover.jpg";
 import ras_cover from "../../assets/chapters/ras_cover.jpg";
 import wie_cover from "../../assets/chapters/wie_cover.jpg";
 import sight_cover from "../../assets/chapters/sight_cover.jpg";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function ChapterPage() {
 	const { chapterSlug } = useParams();
@@ -17,7 +19,11 @@ export default function ChapterPage() {
 	}
 
 	return (
-		<div>
+		<Link to={"/activities"}>
+			<div className="mb-12 flex items-center justify-center gap-3">
+				<FontAwesomeIcon icon={faExternalLink} className="text-xl" />
+				<h2 className="text-center text-4xl font-bold">Our Activities</h2>
+			</div>
 			<div className="flex items-center justify-center">
 				<img
 					className="mb-8 rounded-2xl object-cover shadow-lg md:h-[42rem]"
@@ -31,7 +37,7 @@ export default function ChapterPage() {
 			<div>
 				<Chairs />
 			</div> */}
-		</div>
+		</Link>
 	);
 }
 
