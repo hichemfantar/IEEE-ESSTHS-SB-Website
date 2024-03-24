@@ -343,44 +343,56 @@ export function Chapters({
 						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">CS</h1>
 					</div>
+					{false && (
+						<div className="transition hover:scale-105">
+							<Link
+								target={isActivityMode ? "_blank" : "_self"}
+								to={
+									isActivityMode
+										? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1095251413"
+										: "/chapters/ias"
+								}
+							>
+								<img
+									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+									src={"https://essths.ieee.tn/logos/ias.png"}
+									alt="TSYP2022"
+									loading="lazy"
+								/>
+							</Link>
+							<h1 className="mt-4 text-center text-lg font-extrabold">IAS</h1>
+						</div>
+					)}
+					{false && (
+						<div className="transition hover:scale-105">
+							<Link
+								target={isActivityMode ? "_blank" : "_self"}
+								to={
+									isActivityMode
+										? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=136762747"
+										: "/chapters/pes"
+								}
+							>
+								<img
+									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+									src={"https://essths.ieee.tn/logos/pes.png"}
+									alt="TSYP2022"
+									loading="lazy"
+								/>
+							</Link>
+							<h1 className="mt-4 text-center text-lg font-extrabold">PES</h1>
+						</div>
+					)}
 					<div className="transition hover:scale-105">
 						<Link
 							target={isActivityMode ? "_blank" : "_self"}
 							to={
 								isActivityMode
-									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1095251413"
-									: "/chapters/ias"
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1207037058"
+									: "/chapters/aess"
 							}
 						>
-							<img
-								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/ias.png"}
-								alt="TSYP2022"
-								loading="lazy"
-							/>
-						</Link>
-						<h1 className="mt-4 text-center text-lg font-extrabold">IAS</h1>
-					</div>
-					<div className="transition hover:scale-105">
-						<Link
-							target={isActivityMode ? "_blank" : "_self"}
-							to={
-								isActivityMode
-									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=136762747"
-									: "/chapters/pes"
-							}
-						>
-							<img
-								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/pes.png"}
-								alt="TSYP2022"
-								loading="lazy"
-							/>
-						</Link>
-						<h1 className="mt-4 text-center text-lg font-extrabold">PES</h1>
-					</div>
-					<div className="transition hover:scale-105">
-						<Link to="#">
+							{" "}
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#d9e2e5] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={
@@ -428,6 +440,24 @@ export function Chapters({
 						</Link>
 						<h1 className="mt-4 text-center text-lg font-extrabold">WIE</h1>
 					</div>
+					<div className="transition hover:scale-105">
+						<Link
+							target={isActivityMode ? "_blank" : "_self"}
+							to={
+								isActivityMode
+									? "https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1207037058"
+									: "/chapters/iip"
+							}
+						>
+							<img
+								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#fff] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+								src={"/assets/iip.jpg"}
+								alt="TSYP2022"
+								loading="lazy"
+							/>
+						</Link>
+						<h1 className="mt-4 text-center text-lg font-extrabold">IIP</h1>
+					</div>
 					{false && (
 						<div className="transition hover:scale-105">
 							<Link to="#">
@@ -441,17 +471,19 @@ export function Chapters({
 							<h1 className="mt-4 text-center text-lg font-extrabold">CIS</h1>
 						</div>
 					)}
-					<div className="transition hover:scale-105">
-						<Link to="#">
-							<img
-								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={iesLogo}
-								alt="TSYP2022"
-								loading="lazy"
-							/>
-						</Link>
-						<h1 className="mt-4 text-center text-lg font-extrabold">IES</h1>
-					</div>
+					{false && (
+						<div className="transition hover:scale-105">
+							<Link to="#">
+								<img
+									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
+									src={iesLogo}
+									alt="TSYP2022"
+									loading="lazy"
+								/>
+							</Link>
+							<h1 className="mt-4 text-center text-lg font-extrabold">IES</h1>
+						</div>
+					)}
 					<div className="transition hover:scale-105">
 						<Link
 							target="_blank"
