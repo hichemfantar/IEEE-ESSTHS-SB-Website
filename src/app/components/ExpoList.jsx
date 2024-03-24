@@ -24,7 +24,7 @@ export default function ExpoList() {
 				{!!hostedBy?.length && (
 					<div>
 						<div className="mb-4 text-2xl font-bold">Hosted By</div>
-						<div className="grid grid-cols-12 gap-y-4 md:gap-4">
+						<div className="grid grid-cols-12 gap-4 md:gap-4">
 							{hostedBy.map((e) => (
 								<div className="col-span-12 md:col-span-4" key={e.slug}>
 									<ExpoListItem data={e} />
