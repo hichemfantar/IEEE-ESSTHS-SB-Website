@@ -244,10 +244,38 @@ export const chapters = [
 		excom_image: wie_cover,
 		team: [
 			{
+				name: "Sarra Ghazaoui",
+				title: "Chair",
+				imageSmall: {
+					url: "/assets/people/Sarra Ghazaoui - Chair.jpg",
+				},
+			},
+			{
+				name: "Nour Nsiri",
+				title: "Vice Chair",
+				imageSmall: {
+					url: "/assets/people/Nour Nsiri - Vice chair.jpg",
+				},
+			},
+			{
+				name: "Sirine Gassara",
+				title: "Webmaster",
+				imageSmall: {
+					url: "/assets/people/Sirine Gassara - Webmaster.jpg",
+				},
+			},
+			{
 				name: "Mariem Jammeli",
 				title: "Treasurer",
 				imageSmall: {
 					url: "/assets/people/Mariem Jammeli - Treasurer.jpg",
+				},
+			},
+			{
+				name: "Norhene Bessrour",
+				title: "General Secretary",
+				imageSmall: {
+					url: "/assets/people/Norhene Bessrour SG.png",
 				},
 			},
 		],

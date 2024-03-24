@@ -6,18 +6,18 @@ export default function ExCom() {
 			<div className="mb-8 text-4xl font-bold">
 				Meet the Executive Committee
 			</div>
-			<div className="grid grid-cols-12 gap-y-4 md:gap-4">
+			<div className="grid grid-cols-12 gap-4 md:gap-4">
 				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker) => (
 						// <Link
 						// 	key={speaker.name}
 						// 	to={speaker.name}
-						// 	className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+						// 	className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
 						// >
 						<div
 							key={speaker.name}
-							className="col-span-12 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-4 lg:col-span-3 2xl:col-span-2"
+							className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
 						>
 							<img
 								style={{
@@ -25,7 +25,7 @@ export default function ExCom() {
 								}}
 								src={speaker.imageSmall.url}
 								alt=""
-								className="mb-2 h-96 w-full rounded-lg object-cover md:h-64"
+								className="mb-2 aspect-[12/16] w-full rounded-lg object-cover sm:aspect-[12/16]"
 								loading="lazy"
 							/>
 							<div className="font-bold">{speaker.name}</div>
