@@ -14,7 +14,7 @@ export default function TeamPage() {
 			<div className="mb-12">
 				<Chairs />
 			</div>
-			<div className="mb-12">
+			{/* <div className="mb-12">
 				<HrDepartment />
 			</div>
 			<div className="mb-12">
@@ -22,7 +22,7 @@ export default function TeamPage() {
 			</div>
 			<div className="mb-12">
 				<MultimediaDepartment />
-			</div>
+			</div> */}
 		</div>
 	);
 }
