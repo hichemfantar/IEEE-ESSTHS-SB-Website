@@ -49,34 +49,16 @@ export default function HomePage() {
 
 			<section className="grid grid-cols-12 items-center justify-center py-24 md:py-24">
 				<div className="col-span-12 mx-auto">
-					{"false" && (
-						<>
-							{/* <img
-								src={Logo}
-								className="mx-auto mb-8 hidden h-52 object-contain dark:block dark:invert sm:h-48"
-								alt="TSYP 11"
-								loading="lazy"
-							/> */}
-							<img
-								src={mosmosetImage}
-								className="mx-auto mb-2 h-56 object-contain drop-shadow-lg sm:h-52"
-								alt="TSYP 11"
-								loading="lazy"
-							/>
-						</>
-					)}
-
-					{false && (
-						<h1 className="mb-4 text-center text-4xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-							Bringing Silicon Valley to Tunisia.
-						</h1>
-					)}
-
-					{/* <h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none"> */}
 					<h1 className="mb-8 text-center text-4xl font-bold tracking-tight lg:mb-8 lg:text-center lg:text-6xl lg:font-extrabold lg:leading-none">
-						IEEE ESSTHS Student Branch
+						<span className="text-[#3a55b4] dark:text-[#4967d0]">IEEE</span>{" "}
+						ESSTHS Student Branch
 					</h1>
-
+					<img
+						src={mosmosetImage}
+						className="mx-auto mb-2 h-56 object-contain drop-shadow-lg sm:h-52"
+						alt="TSYP 11"
+						loading="lazy"
+					/>
 					<h1 className="mb-4 text-center text-xl font-bold tracking-tight lg:mb-7 lg:text-center lg:text-2xl lg:font-extrabold lg:leading-none">
 						Hammam Sousse, Tunisia, since 2021
 					</h1>
@@ -296,7 +278,7 @@ export default function HomePage() {
 }
 
 export function Chapters({
-	title = "Our Chapters & AGs",
+	title = "Our Chapters & Affinity Groups",
 	isActivityMode = false,
 }) {
 	return (
@@ -484,24 +466,28 @@ export function Chapters({
 							<h1 className="mt-4 text-center text-lg font-extrabold">IES</h1>
 						</div>
 					)}
-					<div className="transition hover:scale-105">
-						<Link
-							target="_blank"
-							to="https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1771098931"
-							className=""
-						>
-							<div className="col-span-2 mx-auto flex h-36 w-64 items-center justify-center rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1">
-								<FontAwesomeIcon icon={faGlobe} className="text-7xl" />
-								{/* <img
+					{false && (
+						<div className="transition hover:scale-105">
+							<Link
+								target="_blank"
+								to="https://docs.google.com/spreadsheets/d/1nTX4tXHHvjP7tCk6qNjpUKkVSR4DClqlOsG0XR8aM2A/edit#gid=1771098931"
+								className=""
+							>
+								<div className="col-span-2 mx-auto flex h-36 w-64 items-center justify-center rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1">
+									<FontAwesomeIcon icon={faGlobe} className="text-7xl" />
+									{/* <img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#ebebeb] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
 								src={iesLogo}
 								alt="TSYP2022"
 								loading="lazy"
 							/> */}
-							</div>
-						</Link>
-						<h1 className="mt-4 text-center text-lg font-extrabold">General</h1>
-					</div>
+								</div>
+							</Link>
+							<h1 className="mt-4 text-center text-lg font-extrabold">
+								General
+							</h1>
+						</div>
+					)}
 				</div>
 			</div>
 		</div>
@@ -768,6 +754,21 @@ function PoweredBy() {
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
 							src={"https://essths.ieee.tn/partners/essths.png"}
+							alt="essths"
+							// width={200}
+							// height={200}
+							loading="lazy"
+						/>
+					</a>
+					<a
+						href="https://www.linkedin.com/company/rockets-space/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<img
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={"/assets/rockets_space_logo.jpg"}
 							alt="essths"
 							// width={200}
 							// height={200}
