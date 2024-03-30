@@ -774,6 +774,21 @@ function PoweredBy() {
 							loading="lazy"
 						/>
 					</a>
+					<a
+						href="https://www.linkedin.com/company/rockets-space/"
+						target="_blank"
+						rel="noreferrer"
+						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105 dark:invert"
+					>
+						<img
+							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
+							src={"/assets/rockets_space_logo.jpg"}
+							alt="essths"
+							// width={200}
+							// height={200}
+							loading="lazy"
+						/>
+					</a>
 				</div>
 			</div>
 		</div>
