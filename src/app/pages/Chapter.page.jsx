@@ -318,6 +318,13 @@ export const chapters = [
 				},
 			},
 			{
+				name: "Aziz Slama",
+				title: "Fablab Manager",
+				imageSmall: {
+					url: "/assets/people/Aziz Slama - Fablab.jpg",
+				},
+			},
+			{
 				name: "Ahmed Kilani",
 				title: "Webmaster",
 				imageSmall: {
