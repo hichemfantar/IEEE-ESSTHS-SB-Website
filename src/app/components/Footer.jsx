@@ -4,6 +4,7 @@ import routes from "../routes";
 import { twMerge } from "tailwind-merge";
 import {
 	faFacebook,
+	faGithub,
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -122,6 +123,15 @@ export default function Footer() {
 						aria-label="linkedin page"
 					>
 						<FontAwesomeIcon icon={faLinkedin} />
+					</a>
+					<a
+						href="https://github.com/hichemfantar/IEEE-ESSTHS-SB-Website"
+						target="_blank"
+						rel="noreferrer"
+						className="text-gray-600 dark:text-gray-400"
+						aria-label="github"
+					>
+						<FontAwesomeIcon icon={faGithub} />
 					</a>
 				</div>
 			</div>

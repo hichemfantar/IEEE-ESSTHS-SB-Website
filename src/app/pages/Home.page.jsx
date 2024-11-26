@@ -300,7 +300,7 @@ export function Chapters({
 						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#740f0f] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/ras.png"}
+								src={"/assets/ras.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
@@ -318,7 +318,7 @@ export function Chapters({
 						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#c65503] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/cs.png"}
+								src={"/assets/cs.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
@@ -337,7 +337,7 @@ export function Chapters({
 							>
 								<img
 									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#0e5b30] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-									src={"https://essths.ieee.tn/logos/ias.png"}
+									src={"/assets/ias.png"}
 									alt="TSYP2022"
 									loading="lazy"
 								/>
@@ -357,7 +357,7 @@ export function Chapters({
 							>
 								<img
 									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#086200] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-									src={"https://essths.ieee.tn/logos/pes.png"}
+									src={"/assets/pes.png"}
 									alt="TSYP2022"
 									loading="lazy"
 								/>
@@ -377,9 +377,7 @@ export function Chapters({
 							{" "}
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#d9e2e5] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={
-									"https://ieee-aess.org/files/ieeeaess/styles/large/public/images/media/photos/aess_logo_2011_no-text_COLOR_300dpi_registered.png?itok=k_fO3RlZ"
-								}
+								src={"/assets/aess.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
@@ -397,7 +395,7 @@ export function Chapters({
 						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#a14706] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/sight.png"}
+								src={"/assets/sight.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
@@ -415,7 +413,7 @@ export function Chapters({
 						>
 							<img
 								className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#4c1064] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-								src={"https://essths.ieee.tn/logos/wie.png"}
+								src={"/assets/wie.png"}
 								alt="TSYP2022"
 								loading="lazy"
 							/>
@@ -445,7 +443,7 @@ export function Chapters({
 							<Link to="#">
 								<img
 									className="col-span-2 mx-auto h-36 w-64 rounded-2xl bg-[#5093b2] object-contain p-6 shadow-md shadow-gray-200 transition dark:shadow-gray-800 lg:col-span-1"
-									src={"https://essths.ieee.tn/logos/cis.png"}
+									src={"/assets/cis.png"}
 									alt="TSYP2022"
 									loading="lazy"
 								/>
@@ -689,7 +687,7 @@ function PoweredBy() {
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={"https://essths.ieee.tn/partners/satoripop.png"}
+							src={"/assets/satoripop.png"}
 							alt="satoripop"
 							// width={200}
 							// height={200}
@@ -697,14 +695,14 @@ function PoweredBy() {
 						/>
 					</a>
 					<a
-						href="https://2betrading.com/"
+						href="https://2btrading.tn/"
 						target="_blank"
 						rel="noreferrer"
 						className="overflow-hidden rounded-full p-8 shadow-md shadow-gray-200 transition hover:scale-105"
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 dark:invert md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={"https://2betrading.com/img/2b-trading-logo-1517163526.jpg"}
+							src={"/assets/2b.jpg"}
 							alt="2betrading"
 							// width={200}
 							// height={200}
@@ -719,9 +717,7 @@ function PoweredBy() {
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={
-								"https://gomycode.com/tn/wp-content/uploads/sites/26/2022/06/new-logo-e1679052959915.png"
-							}
+							src={"/assets/gmc.png"}
 							alt="gomycode"
 							// width={200}
 							// height={200}
@@ -736,9 +732,7 @@ function PoweredBy() {
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={
-								"https://www.pristiniaiuniversity.tn/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fpristini.4a4b659e.png&w=256&q=75"
-							}
+							src={"/assets/pristini.png"}
 							alt="pristini"
 							// width={200}
 							// height={200}
@@ -753,7 +747,7 @@ function PoweredBy() {
 					>
 						<img
 							className="col-span-2 h-[115px] w-[115px] object-contain transition hover:scale-105 dark:shadow-gray-800 md:h-[200px] md:w-[200px] lg:col-span-1"
-							src={"https://essths.ieee.tn/partners/essths.png"}
+							src={"/assets/essths.png"}
 							alt="essths"
 							// width={200}
 							// height={200}

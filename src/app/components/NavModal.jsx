@@ -8,6 +8,7 @@ import ThemeToggle from "./ThemeToggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faFacebook,
+	faGithub,
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
@@ -112,15 +113,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 											{/* /End replace */}
 										</div>
 
-										<div className="flex items-center justify-between">
-											<div className="px-4 sm:px-6">
-												{false && (
-													<Dialog.Title className="text-sm font-semibold md:text-base">
-														IEEE © 2023
-													</Dialog.Title>
-												)}
-											</div>
-
+										<div className="flex items-center justify-start">
 											<div className="flex items-center gap-4 px-4 sm:px-6">
 												<a
 													href="https://www.facebook.com/essthsieee"
@@ -149,11 +142,20 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												>
 													<FontAwesomeIcon icon={faLinkedin} />
 												</a>
+												<a
+													href="https://github.com/hichemfantar/IEEE-ESSTHS-SB-Website"
+													target="_blank"
+													rel="noreferrer"
+													className="text-gray-600 dark:text-gray-400"
+													aria-label="github"
+												>
+													<FontAwesomeIcon icon={faGithub} />
+												</a>
 
 												<ThemeToggle />
 											</div>
 										</div>
-										<div className="mt-2 text-center font-semibold">
+										<div className="mt-2 px-4 text-start font-semibold sm:px-6">
 											Designed by Hichem Fantar
 											{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 										</div>

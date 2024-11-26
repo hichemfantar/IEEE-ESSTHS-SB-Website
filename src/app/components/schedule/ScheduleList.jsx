@@ -67,7 +67,7 @@ export const companiesMock = [
 		slug: "esportstn",
 		tierRank: 1,
 		logo: {
-			url: "https://i.imgur.com/BJwI0qC.png",
+			url: "",
 		},
 	},
 	{
