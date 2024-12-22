@@ -80,7 +80,7 @@ export default function Navigation() {
 										to={"https://tsyp.ieee.tn/"}
 										target="_blank"
 									>
-										TSYP 11
+										TSYP
 									</NavLink>
 								</li>
 								{/* <li>
