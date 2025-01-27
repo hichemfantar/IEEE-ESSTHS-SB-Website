@@ -97,6 +97,7 @@ export default function HomePage() {
 						))}
 					</div>
 				</div>
+
 				{/* <div className="col-span-6">
 				<h1 className="mb-4 text-4xl font-bold tracking-tight   lg:mb-7 lg:text-start lg:text-6xl lg:font-extrabold lg:leading-none">
 					Welcome to our Silicon Valley.
@@ -204,6 +205,10 @@ export default function HomePage() {
 						IAS, PES, RAS, IES, and 2 Affinity Groups: SIGHT & WIE. We have had
 						the honor of receiving more than 12 worldwide IEEE Awards across all
 						fields through the dedication and commitment of each of our members.
+						<br />
+						Our mission is to empower Tunisian students with practical technical
+						skills and real-world experience through collaborative open-source
+						projects and humanitarian technology initiatives.
 					</h1>
 					<div>
 						<Link
