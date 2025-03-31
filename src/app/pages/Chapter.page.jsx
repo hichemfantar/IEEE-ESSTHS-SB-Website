@@ -26,9 +26,10 @@ export default function ChapterPage() {
 			"*": "/favicon-32x32.png",
 			"cs": "/csicons.png",
 			"wie": "/wie_icons.png",
-			"sight": "/assets/cs.png",
+			"ras":"/icon_ras.png",
+			"sight": "/assets/sight.png",
 			"aess": "/aessold.png",
-			"iip": "/assets/cs.png",
+			"iip": "/assets/iip.png",
 		  };
 		console.log('chapterSlug',chapterSlug)
 		const currentChaptericon = chapters.find((s) => s.slug === chapterSlug);

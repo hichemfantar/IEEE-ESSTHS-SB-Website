@@ -117,6 +117,7 @@ const { chapterSlug } = useParams();
 			"cs": "/csicons.png",
 			"wie": "/wie_icons.png",
 			"sight": "/assets/cs.png",
+			"ras": "/icon_ras.png",
 			"aess": "/aessold.png",
 			"iip": "/assets/cs.png",
 		  };

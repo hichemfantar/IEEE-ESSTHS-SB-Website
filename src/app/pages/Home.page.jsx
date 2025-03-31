@@ -64,62 +64,62 @@ const imagePositions = [
 	"top-22 left-72",
 	"top-28 left-96",
 ]; // Adjusted to place images cutely
-function TeamBuildingMemories() {
-	const [showTitle, setShowTitle] = useState(false);
+// function TeamBuildingMemories() {
+// 	const [showTitle, setShowTitle] = useState(false);
 
-	useEffect(() => {
-		setTimeout(() => {
-			setShowTitle(true);
-		}, 3000);
-	}, []);
+// 	useEffect(() => {
+// 		setTimeout(() => {
+// 			setShowTitle(true);
+// 		}, 3000);
+// 	}, []);
 
-	return (
-		<div className="relative flex h-screen flex-col items-center justify-center ">
-			{/* Animated Handwriting Title */}
-			{showTitle && (
-				<motion.h1
-					initial={{ opacity: 0 }}
-					animate={{ opacity: 1 }}
-					transition={{ duration: 1.5 }}
-					className="z-9 text-center text-8xl font-extrabold text-blue-700"
-				>
-					<motion.h1
-						initial={{ clipPath: "inset(0% 100% 0% 0%)" }}
-						animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
-						transition={{ duration: 2, ease: "easeInOut" }}
-						className="inline-block"
-					>
-						IEEE ESSTHS
-					</motion.h1>
-				</motion.h1>
-			)}
+// 	return (
+// 		<div className="relative flex h-screen flex-col items-center justify-center ">
+// 			{/* Animated Handwriting Title */}
+// 			{showTitle && (
+// 				<motion.h1
+// 					initial={{ opacity: 0 }}
+// 					animate={{ opacity: 1 }}
+// 					transition={{ duration: 1.5 }}
+// 					className="z-9 text-center text-8xl font-extrabold text-blue-700"
+// 				>
+// 					<motion.h1
+// 						initial={{ clipPath: "inset(0% 100% 0% 0%)" }}
+// 						animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
+// 						transition={{ duration: 2, ease: "easeInOut" }}
+// 						className="inline-block"
+// 					>
+// 						IEEE ESSTHS
+// 					</motion.h1>
+// 				</motion.h1>
+// 			)}
 
-			{/* Blurry Images Behind the Title */}
-			<div className="absolute top-24 z-0 flex flex-wrap justify-center space-x-6 space-y-10">
-				{images.map((src, index) => (
-					<motion.div
-						key={index}
-						className="flex flex-col items-center"
-						initial={{ opacity: 0, scale: 1.2, rotate: imageRotations[index] }}
-						animate={{
-							opacity: showTitle ? 0.3 : 1,
-							scale: 0.8,
-							rotate: imageRotations[index],
-							filter: showTitle ? "blur(6px)" : "none",
-						}}
-						transition={{ duration: 1.5, delay: index * 0.4 }}
-					>
-						<img
-							src={src}
-							className="h-auto w-64 rounded-lg shadow-lg"
-							alt={`Memory ${index + 1}`}
-						/>
-					</motion.div>
-				))}
-			</div>
-		</div>
-	);
-}
+// 			{/* Blurry Images Behind the Title */}
+// 			<div className="absolute top-24 z-0 flex flex-wrap justify-center space-x-6 space-y-10">
+// 				{images.map((src, index) => (
+// 					<motion.div
+// 						key={index}
+// 						className="flex flex-col items-center"
+// 						initial={{ opacity: 0, scale: 1.2, rotate: imageRotations[index] }}
+// 						animate={{
+// 							opacity: showTitle ? 0.3 : 1,
+// 							scale: 0.8,
+// 							rotate: imageRotations[index],
+// 							filter: showTitle ? "blur(6px)" : "none",
+// 						}}
+// 						transition={{ duration: 1.5, delay: index * 0.4 }}
+// 					>
+// 						<img
+// 							src={src}
+// 							className="h-auto w-64 rounded-lg shadow-lg"
+// 							alt={`Memory ${index + 1}`}
+// 						/>
+// 					</motion.div>
+// 				))}
+// 			</div>
+// 		</div>
+// 	);
+// }
 
 export default function HomePage() {
 
@@ -130,7 +130,7 @@ export default function HomePage() {
 			"/cs": "/csicons.png",
 			"/wie": "/wie_icons.png",
 			"/aess": "/aessold.png",
-			"/ras": "/icons/wie.png",
+			"/ras": "/icon_ras.png",
 			"/iip": "/icons/wie.png",
 			"/sight": "/icons/wie.png",
 				  };

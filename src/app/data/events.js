@@ -54,5 +54,10 @@ export const events = [
 		"Event Title": "Python Tutorial",
 		"Event Date": "28 Mar 2021 7:00 PM",
 		"Event_Image": "https://res.cloudinary.com/dytybjqwb/image/upload/v1743418755/481472031_936117785390183_2018498791308976177_n_tnstcr.jpg",
+	},
+	{
+		"Event Title": "Python Tutorial",
+		"Event Date": "28 Mar 2021 7:00 PM",
+		"Event_Image": "https://res.cloudinary.com/dytybjqwb/image/upload/v1743420960/476317360_916611657302128_8454858437263499731_n_z9lfsc.jpg",
 	}
 ];
