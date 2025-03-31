@@ -47,7 +47,7 @@ export default function AwardsMapPage() {
 				"/cs": "/csicons.png",
 				"/wie": "/wie_icons.png",
 				"/aess": "/aessold.png",
-				"/ras": "/icons/wie.png",
+				"/ras": "/icon_ras.png",
 				"/iip": "/icons/wie.png",
 				"/sight": "/icons/wie.png",
 					  };
