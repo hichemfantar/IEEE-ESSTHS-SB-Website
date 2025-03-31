@@ -1,5 +1,5 @@
 import salma_achour from "../../assets/OC pictures/salma_achour.jpg";
-import salma_ghedamsi from "../../assets/OC pictures/salma_ghedamsi.jpg";
+import salma_ghedamsi from "../../assets/OC pictures/nayssen_chebbi.jpg";
 import nayssen_chebbi from "../../assets/OC pictures/nayssen_chebbi.jpg";
 import kacem_obey from "../../assets/OC pictures/kacem_obey.jpg";
 import imen_ben_hassine from "../../assets/OC pictures/imen_ben_hassine.jpg";
@@ -66,7 +66,7 @@ export const teamData = [
 			name: "Vercel",
 		},
 		image: {
-			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
+			url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1742600256/chair_zjivdp.png",
 		},
 		imageSmall: {
 			url: salma_ghedamsi,

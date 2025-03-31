@@ -39,7 +39,7 @@ export default function Footer() {
 					/> */}
 							{/* <div className="flex flex-wrap gap-2 font-['Tangerine'] text-3xl font-semibold dark:font-normal md:text-4xl "> */}
 							<div className="font-semibold">
-								Designed by Hichem Fantar
+								Developed by a tired momos :D
 								{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
 							</div>
 							{/* <span className="self-center whitespace-nowrap text-2xl font-semibold ">

@@ -11,19 +11,43 @@ import LogoOnBlack from "../../assets/Logo on black.png";
 import ThemeToggle from "./ThemeToggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import { useParams } from "react-router-dom";
+
+import { useEffect } from "react";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
+	const [currentIcon, setcurrentIcon] = useState(SmallLogo);
 
+	const { chapterSlug } = useParams();
+	useEffect(() => {
+		const faviconMap = {
+			"": `${SmallLogo}`,
+			"cs": "/assets/cs.png",
+			"wie": "/assets/wie.png",
+			"sight": "/assets/sight.png",
+			"aess": "/assets/aess.png",
+			"iip": "/assets/iip.png",
+			"ras": "/assets/ras.png",
+		};
+		console.log("chapterSlug", chapterSlug);
+
+		if (chapterSlug) {
+			setcurrentIcon(faviconMap[chapterSlug]);
+		} else {
+			setcurrentIcon(SmallLogo);
+		}
+		// Default favicon
+	}, [chapterSlug]);
 	return (
 		<div>
-			<nav className="rounded border-gray-200 px-4 py-2.5 sm:px-8">
+			<nav className="border-color-[#ffffff] border-[##7f9ab3]-300 fixed z-10 w-full rounded border border-b-2 bg-[#f2f8ffc0] px-2 py-1 backdrop-blur-md sm:px-8">
 				<div className="container mx-auto flex flex-wrap items-center justify-between">
 					<Link to="/" className="flex items-center">
 						<img
 							loading="eager"
-							src={SmallLogo}
-							className={`mr-3 h-10 sm:h-12`}
+							src={currentIcon}
+							className={`mr-3 h-6 sm:h-12 md:h-16`}
 							alt="IEEE ESSTHS"
 						/>
 						{/* <svg
@@ -41,7 +65,7 @@ export default function Navigation() {
 							TSYP 11
 						</span> */}
 					</Link>
-					<div className="fontt-['space_mono'] flex items-center gap-2">
+					<div className="flex items-center gap-2 font-['space_mono']">
 						<div className="hidden w-auto items-center justify-between lg:flex">
 							<ul className="flex flex-col rounded-lg border border-gray-100 p-4 dark:border-gray-700 md:mt-0 md:flex-row md:border-0 md:text-sm md:font-medium">
 								{routes

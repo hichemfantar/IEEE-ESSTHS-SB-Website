@@ -3,10 +3,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+	font-family: essthsFont;
+	src: url(font/CoolveticaRg.otf);
+}
 
 @layer base {
 	body {
-		@apply bg-gray-50 text-gray-900 selection:bg-gray-700 selection:text-gray-50 dark:bg-black dark:text-gray-100;
+		@apply bg-gray-50 text-gray-900 selection:bg-gray-700 selection:text-gray-50 dark:bg-black dark:text-gray-200;
 	}
 }
 
@@ -23,7 +27,7 @@ html.dark {
 }
 
 :root {
-	font-family: Inter, sans-serif;
+	font-family: essthsFont;
 	scroll-behavior: smooth;
 	/* color-scheme: light; */
 }
@@ -41,4 +45,26 @@ body,
 #ss_survey_widget > iframe {
 	border-radius: 1rem /* 16px */;
 	width: 100% !important;
+}
+body {
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body::before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url("https://res.cloudinary.com/dytybjqwb/image/upload/v1738272487/final_p1wiig.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	opacity: 0.7; /* Adjust the opacity */
+	z-index: -1; /* Keeps it behind content */
 }

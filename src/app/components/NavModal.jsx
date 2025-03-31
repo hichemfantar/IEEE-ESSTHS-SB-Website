@@ -155,10 +155,7 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												<ThemeToggle />
 											</div>
 										</div>
-										<div className="mt-2 px-4 text-start font-semibold sm:px-6">
-											Designed by Hichem Fantar
-											{/* <img src={signature} className="mr-3 h-8 dark:invert" alt="TSYP 11" /> */}
-										</div>
+									
 									</div>
 								</Dialog.Panel>
 							</Transition.Child>

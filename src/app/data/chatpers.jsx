@@ -29,7 +29,7 @@ export const chapters = [
 				name: "Aroua Blidi",
 				title: "Vice Chair",
 				imageSmall: {
-					url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1743421694/vice_zhmiiv.png",
+					url: "/assets/people/Ahmed Kahloun - Vice Chair.jpg",
 				},
 			},
 			// {
