@@ -18,44 +18,17 @@ import {
 } from "chart.js";
 
 
-const pageVariants = {
-	initial: {
-		opacity: 0,
-		y: 50, // Start from below
-	},
-	in: {
-		opacity: 1,
-		y: 0, // Slide to normal position
-	},
-	out: {
-		opacity: 0,
-		y: -50, // Slide upwards on exit
-	},
-};
 
-const pageTransition = {
-	type: "tween",
-	ease: "linear",
-	duration: 0.5, // Adjust duration for a slower scroll effect
-};
+
 ChartJS.register(LineElement, PointElement, LinearScale, CategoryScale);
 
-function getRandomRotation() {
-	return Math.random() * 30 - 15; // Random rotation between -15 and 15 degrees
-  }
-  
-  function getRandomOffset() {
-	return Math.random() * 20 - 10; // Random small offset for more natural scattering
-  }
-  const imageRotations = images.map(() => Math.random() * 20 - 10); // Random rotation between -10 and 10 degrees
-  // Adjusted for a more natural hanging effect
-const imagePositions = [
-	"top-20 left-24",
-	"top-24 left-48",
-	"top-22 left-72",
-	"top-28 left-96",
-]; // Adjusted to place images cutely
+
 function TeamBuildingMemories() {
+	const [imageRotations, setImageRotations] = useState([]);
+
+useEffect(() => {
+  setImageRotations(images.map(() => Math.random() * 20 - 10));
+}, []);
   const [showTitle, setShowTitle] = useState(false);
 
   useEffect(() => {
