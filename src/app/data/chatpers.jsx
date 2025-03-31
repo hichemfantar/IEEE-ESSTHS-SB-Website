@@ -1,7 +1,5 @@
-import { Link, useNavigate, useParams } from "react-router-dom";
-
+//NOSONAR
 import cs_cover from "../../assets/chapters/cs_cover.jpg";
-import ias_cover from "../../assets/chapters/ias_cover.jpg";
 import pes_cover from "../../assets/chapters/pes_cover.jpg";
 import ras_cover from "../../assets/chapters/ras_cover.jpg";
 import wie_cover from "../../assets/chapters/wie_cover.jpg";
@@ -497,6 +495,12 @@ export const chapters = [
 		name: "IAS IES PES Joint Chapter (IIP)",
 		descpt:
 			"The IEEE IAS-IES-PES Joint Chapter at ESSTHS serves as a dynamic platform for students passionate about industrial applications, power and energy systems, and industrial electronics. By integrating the expertise of the IEEE Industry Applications Society (IAS), IEEE Industrial Electronics Society (IES), and IEEE Power & Energy Society (PES), this chapter fosters technical excellence, professional growth, and industry engagement. Through a variety of initiatives—including workshops, seminars, technical projects, and industrial visits—members gain valuable hands-on experience and insights into real-world engineering challenges, effectively bridging the gap between academia and industry.",
+			descpt_pes:
+			"The IEEE IAS-IES-PES Joint Chapter at ESSTHS serves as a dynamic platform for students passionate about industrial applications, power and energy systems, and industrial electronics. By integrating the expertise of the IEEE Industry Applications Society (IAS), IEEE Industrial Electronics Society (IES), and IEEE Power & Energy Society (PES), this chapter fosters technical excellence, professional growth, and industry engagement. Through a variety of initiatives—including workshops, seminars, technical projects, and industrial visits—members gain valuable hands-on experience and insights into real-world engineering challenges, effectively bridging the gap between academia and industry.",
+			descpt_ias:
+			"The IEEE IAS-IES-PES Joint Chapter at ESSTHS serves as a dynamic platform for students passionate about industrial applications, power and energy systems, and industrial electronics. By integrating the expertise of the IEEE Industry Applications Society (IAS), IEEE Industrial Electronics Society (IES), and IEEE Power & Energy Society (PES), this chapter fosters technical excellence, professional growth, and industry engagement. Through a variety of initiatives—including workshops, seminars, technical projects, and industrial visits—members gain valuable hands-on experience and insights into real-world engineering challenges, effectively bridging the gap between academia and industry.",
+			descpt_ies:
+			"The IEEE IAS-IES-PES Joint Chapter at ESSTHS serves as a dynamic platform for students passionate about industrial applications, power and energy systems, and industrial electronics. By integrating the expertise of the IEEE Industry Applications Society (IAS), IEEE Industrial Electronics Society (IES), and IEEE Power & Energy Society (PES), this chapter fosters technical excellence, professional growth, and industry engagement. Through a variety of initiatives—including workshops, seminars, technical projects, and industrial visits—members gain valuable hands-on experience and insights into real-world engineering challenges, effectively bridging the gap between academia and industry.",
 		color: "#1a9e39",
 		variantcolor: "#0e5b30",
 		momos: "/assets/momoset/momos_iip.svg",
@@ -523,6 +527,12 @@ export const chapters = [
 				title: "Vice Chair",
 				imageSmall: {
 					url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1742608482/vice_tfdck6.png",
+				},
+			},{
+				name: "Fedi Bayoudhi ",
+				title: "Vice Chair",
+				imageSmall: {
+					url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1743455651/vice2_x2snxr.png",
 				},
 			},
 			{
@@ -880,13 +890,13 @@ export const chapters = [
 					url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1742607539/treso_ntfk38.png",
 				},
 			},
-			// {
-			// 	name: "Nourane Ben Salem",
-			// 	title: "Webmaster",
-			// 	imageSmall: {
-			// 		url: "/assets/people/nourane ben salem - webmaster.jpg",
-			// 	},
-			// }
+			 {
+			 	name: "Omar Ayed",
+			 	title: "Webmaster",
+			 	imageSmall: {
+			 		url: "https://res.cloudinary.com/dytybjqwb/image/upload/v1743456705/webmaster_qymjzv.png",
+			 	},
+			 },
 			{
 				name: "Souleiman Ben Salem",
 				title: "Treasurer",

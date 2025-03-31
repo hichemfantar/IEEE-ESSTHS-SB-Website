@@ -27,7 +27,7 @@ function TeamBuildingMemories() {
 	const [imageRotations, setImageRotations] = useState([]);
 
 useEffect(() => {
-  setImageRotations(images.map(() => Math.random() * 20 - 10));
+  setImageRotations(images.map(() => Math.random() * 20 - 10)); //NOSONAR
 }, []);
   const [showTitle, setShowTitle] = useState(false);
 
@@ -52,7 +52,7 @@ useEffect(() => {
             transition={{ duration: 0.5, ease: "easeInOut" }}
             className="inline-block"
           >
-            IEEE ESSTHS
+          Welcome to IEEE essths student
           </motion.span>
         </motion.h1>
       )}

@@ -8,17 +8,7 @@ export function UpEvents({ chapter }) {
 	const [expandedIndex, setExpandedIndex] = useState(null);
 	const [selectedEvent, setSelectedEvent] = useState(null);
 
-	// const scrollRight = () => {
-	// 	if (scrollRef.current) {
-	// 		scrollRef.current.scrollBy({ left: 300, behavior: "smooth" });
-	// 		setCurrentIndex((prev) => (prev + 2) % sortedEvents.length);
-	// 	}
-	// };
 
-	// useEffect(() => {
-	//   const interval = setInterval(scrollRight, 3000);
-	//   return () => clearInterval(interval);
-	// }, []);
 	if (chapter.length === 0) return null;
 
 	const scrollRef = useRef(null);
@@ -212,7 +202,7 @@ const SmoothScrollEvents = ({ loopedEvents, onExtend }) => {
 				transition={{ duration: 0.8 }}
 				className="mb-6 text-4xl font-bold"
 			>
-				Latest Eventsdddd
+				Latest Events
 			</motion.div>
 
 			{/* Scrollable Container */}
@@ -237,7 +227,7 @@ const SmoothScrollEvents = ({ loopedEvents, onExtend }) => {
 							<motion.div
 								key={index}
 								onClick={() => onExtend(event)}
-								className="flex min-w-[30%] transform cursor-pointer  
+								className="flex min-w-[20rem] transform cursor-pointer  
                     flex-col items-center justify-center rounded-lg bg-white p-2 text-center shadow-lg transition-all dark:bg-gray-800 sm:min-w-[30%] md:min-w-[30%]"
 								style={{
 									scrollSnapAlign: "center",

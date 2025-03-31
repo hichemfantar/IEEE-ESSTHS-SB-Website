@@ -1,3 +1,4 @@
+//NOSONAR
 export const events = [
 
 	{

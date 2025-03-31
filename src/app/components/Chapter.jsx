@@ -119,7 +119,7 @@ export function Events({ chapter }) {
 				  style={{ backgroundImage: `url(${event["Event_image"]})` }}
 				></div>
 				<div className="flex flex-col items-center justify-center gap-4 text-center">
-				  <div className="text-lg font-semibold text-gray-900 dark:text-white">
+				  <div className="text-lg sm:text-sm md:text-sm font-semibold text-gray-900 dark:text-white">
 					<p className="break-words">{event["Event Title"]}</p>
 				  </div>
 				  <p className="mt-2 text-gray-600 dark:text-gray-400">

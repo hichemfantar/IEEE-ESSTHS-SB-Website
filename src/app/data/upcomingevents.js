@@ -3,7 +3,7 @@ export const upevents = [
 	{
 		"Event Title": "Aess Talk",
 		"Event Date": "15 Apr 2025 ",
-		"State": "inproress",
+		"State": "Finished",
 		"Event_link":"https://www.facebook.com/profile.php?id=61557575908522",
 		"Event_image": "https://res.cloudinary.com/dytybjqwb/image/upload/v1742774733/482126767_122192740646252530_8840832326748474967_n_gcxbqt.jpg",
 		"Event_pdp": "https://res.cloudinary.com/dytybjqwb/image/upload/v1743120305/aess_talk_q9xprg.png",
@@ -13,7 +13,7 @@ export const upevents = [
 	{
 		"Event Title": "Solid works bootcamp",
 		"Event Date": "25 Apr 2023 8:30 PM",
-		"State": "inproress",
+		"State": "in Progress",
 		"Event_link":"https://www.facebook.com/events/959027069169569/",
 		"Event_image": "assets/events/solidworks.jpg",
 		"Event_pdp": "https://res.cloudinary.com/dytybjqwb/image/upload/v1743409655/solidwork_dnovue.png",
@@ -22,7 +22,7 @@ export const upevents = [
 	{
 		"Event Title": "Innosphere Virtual Summit",
 		"Event Date": "25 Apr 2023 8:30 PM",
-		"State": "inproress",
+		"State": "in Progress",
 		"Event_link":"https://www.facebook.com/events/959027069169569/",
 		"Event_image":
 			"https://res.cloudinary.com/dytybjqwb/image/upload/v1742597411/innosphere_yerbap.jpg",
@@ -32,7 +32,7 @@ export const upevents = [
 	{
 		"Event Title": "IEEE Tejmaana 2.0 ",
 		"Event Date": "22 Mar 2025 8:30 PM",
-		"State": "done",
+		"State": "Finished",
 		"Event_link":"https://www.facebook.com/events/647816040999518/",
 		"Event_image":
 			"https://res.cloudinary.com/dytybjqwb/image/upload/v1742599018/tejmaana_pk7shk.jpg",

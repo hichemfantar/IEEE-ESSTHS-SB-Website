@@ -79,7 +79,7 @@ export default function ChapterPage() {
         animate={{ rotate: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
       >
-        <FontAwesomeIcon icon={faExternalLink} className="text-xl text-white" />
+        {/* <FontAwesomeIcon icon={faExternalLink} className="text-xl text-white" /> */}
       </motion.div>
       <motion.h2
         className="text-center text-4xl font-bold text-white"
@@ -93,11 +93,11 @@ export default function ChapterPage() {
       </motion.h2>
 	  </div>
     </motion.div>
-	<div  className="m-7 px-20 py-20">
+	<div  className="m-7 lg:px-20 sm:px-10 lg:py-20 sm:py-5">
 	<motion.div
-        className="text-left text-4xl font-bold text-black py-10"
+        className="text-left lg:text-4xl md:text-xl sm:text-lg font-bold text-black py-10"
         initial={{ y: -10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
+        animate={{ y: 0, opacity: 1 }} 
         transition={{ duration: 0.5, delay: 0.3 }}
 		
       >
