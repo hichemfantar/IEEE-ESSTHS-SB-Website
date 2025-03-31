@@ -1,0 +1,175 @@
+/* Button to open the chat */
+.open-chat-btn {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	padding: 10px 15px;
+	background-color: #007bff;
+	color: white;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	z-index: 1000;
+}
+
+.open-chat-btn:hover {
+	background-color: #0056b3;
+}
+
+/* The popup container */
+.chatbot-popup {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	width: 350px;
+	max-height: 500px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+	z-index: 999;
+}
+
+/* Top header bar with close icon */
+.chatbot-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #007bff;
+	color: #fff;
+	padding: 10px;
+}
+
+.chatbot-header span {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.close-icon {
+	background: none;
+	border: none;
+	font-size: 20px;
+}
+
+.closebutton {
+	cursor: pointer;
+	display: flex;
+	background-color: #f2f2f2;
+	cursor: pointer;
+	flex-direction: row;
+	justify-content: flex-end;
+	padding-right: 1rem;
+}
+/* Chat area */
+.chat-container {
+	flex: 1;
+	padding: 10px;
+	overflow-y: auto;
+	background-color: #f2f2f2;
+}
+
+/* Message row containers */
+.message-row {
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 10px;
+}
+
+/* Bot messages */
+.bot-message {
+	justify-content: flex-start;
+}
+
+.bot-avatar {
+	width: 30px;
+	height: 30px;
+	margin-right: 5px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.bot-icon {
+	font-size: 24px;
+}
+
+/* User messages */
+.user-message {
+	justify-content: flex-end;
+}
+
+/* Message bubbles */
+.message-bubble {
+	max-width: 70%;
+	padding: 10px 15px;
+	border-radius: 15px;
+	line-height: 1.4;
+	font-size: 14px;
+	white-space: pre-wrap; /* preserve line breaks if any */
+}
+
+.bot-bubble {
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+}
+
+.user-bubble {
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 15px 15px 0 15px;
+}
+
+/* Option bubble (for clickable links) */
+.option-bubble {
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	border-radius: 15px;
+	padding: 10px 15px;
+	cursor: pointer;
+	font-size: 14px;
+	margin-left: 0; /* override default for bot bubble if needed */
+}
+
+.option-bubble:hover {
+	background-color: #e8e8e8;
+}
+
+/* Input area */
+.input-container {
+	display: flex;
+	background-color: #fff;
+	border-top: 1px solid #ddd;
+	padding: 10px;
+}
+
+.input-container input {
+	flex: 1;
+	padding: 8px;
+	border: 1px solid #ddd;
+	border-radius: 20px;
+	font-size: 14px;
+}
+
+.input-container button {
+	margin-left: 10px;
+	padding: 8px 15px;
+	border: none;
+	border-radius: 20px;
+	background-color: #007bff;
+	color: #fff;
+	font-size: 14px;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-container button:hover {
+	background-color: #0056b3;
+}
+
+.options {
+	padding-left: 1rem;
+}

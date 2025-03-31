@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.fade-in {
+		opacity: 1 !important;
+		transform: translateY(0) !important;
+	}
+}
+@keyframes gradientAnimation {
+	0% {
+		background-position: 0% 50%;
+		font-size: 1rem;
+	}
+	50% {
+		background-position: 100% 50%;
+		font-size: 1.5rem;
+	}
+	100% {
+		background-position: 0% 50%;
+		font-size: 1rem;
+	}
+}
+
+/* Create a utility class for animated gradient text */
+.animate-gradient {
+	background: linear-gradient(90deg, #3b82f6, #9333ea, #f43f5e);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradientAnimation 2s ease infinite;
+	font-size: 1rem; /* Default font size */
+	transition: font-size 0.2s ease; /* Smooth font-size transition */
+}
+
+.highlight {
+	font-size: 1.5rem; /* Larger font size when triggered */
+}
+.background {
+	position: relative;
+	padding-bottom: 1rem;
+	z-index: 1; /* Ensure content appears above the pseudo-element */
+	color: white;
+}
+
+.background::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1; /* Send the background behind the content */
+
+	/* Background settings */
+	background-image: url("https://res.cloudinary.com/dytybjqwb/image/upload/v1740355709/470957586_18039732614460936_5318145448294234576_n_y4wvgr.jpg");
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(7, 1, 1, 0.836); /* Dark overlay */
+	background-blend-mode: overlay;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	/* Blur effect */
+	filter: blur(1px);
+}
+
+/* Ensure child elements are above the shadow */
+.background > * {
+	position: relative;
+	z-index: 2; /* Higher z-index to stay above the shadow */
+}
+
+@keyframes fadeSlideUp {
+	0% {
+		opacity: 0;
+		transform: translateY(50px) scale(0.9);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0) scale(1);
+	}
+}
+
+@keyframes gradientAnimationText {
+	0% {
+		background-position: 0% 100%;
+	}
+	25% {
+		background-position: 25% 60%;
+	}
+	50% {
+		background-position: 50% 50%;
+	}
+	75% {
+		background-position: 75% 40%;
+	}
+	100% {
+		background-position: 100% 50%;
+	}
+}
+
+.gradient-text {
+	background: linear-gradient(
+		30deg,
+		#ffffff,
+		rgb(68, 144, 251),
+		#0e6edb,
+		rgb(68, 144, 251),
+		#ffffff,
+		rgb(68, 144, 251)
+	);
+	background-size: 400% 400%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: gradientAnimationText 5s linear infinite;
+	transition: font-size 0.2s ease;
+}
+
+.animated-title {
+	animation: fadeSlideUp 1.2s ease-out forwards;
+	opacity: 0; /* Ensures animation starts from hidden */
+}

@@ -1,0 +1,64 @@
+.roadmap-container {
+	position: relative;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+.roadmap-line {
+	position: absolute;
+	width: 5px;
+	height: 100%;
+	background: #0e6edb;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: -1;
+}
+
+.award-card {
+	position: relative;
+	width: 50%;
+	background: rgba(255, 255, 255, 0.1);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border-radius: 10px;
+	padding: 4rem;
+	text-align: center;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 1rem;
+	justify-content: space-around;
+}
+
+.award-card.left {
+	align-self: flex-start;
+}
+
+.award-card.right {
+	align-self: flex-end;
+}
+
+.award-badge {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: white;
+	font-weight: bold;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.award-image {
+	width: 80px;
+	height: 80px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-top: 10px;
+}

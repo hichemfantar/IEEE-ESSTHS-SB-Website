@@ -1,0 +1,13 @@
+.image {
+	width: 100%;
+}
+
+.image_container {
+	width: 35vh;
+}
+
+@media screen {
+	.image {
+		width: 80%;
+	}
+}
