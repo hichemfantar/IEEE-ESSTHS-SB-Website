@@ -47,7 +47,8 @@ function getRandomRotation() {
   function getRandomOffset() {
 	return Math.random() * 20 - 10; // Random small offset for more natural scattering
   }
-const imageRotations = [-12, 8, -6, 10, -10]; // Adjusted for a more natural hanging effect
+  const imageRotations = images.map(() => Math.random() * 20 - 10); // Random rotation between -10 and 10 degrees
+  // Adjusted for a more natural hanging effect
 const imagePositions = [
 	"top-20 left-24",
 	"top-24 left-48",
@@ -55,68 +56,60 @@ const imagePositions = [
 	"top-28 left-96",
 ]; // Adjusted to place images cutely
 function TeamBuildingMemories() {
-	const [showTitle, setShowTitle] = useState(false);
+  const [showTitle, setShowTitle] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setShowTitle(true);
+    }, 3000);
+  }, []);
+
+  return (
+    <div className="relative flex h-screen flex-col items-center justify-center">
+      {showTitle && (
+        <motion.h1
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1.5 }}
+          className="z-10 text-center text-8xl font-extrabold text-blue-700"
+        >
+          <motion.span
+            initial={{ clipPath: "inset(0% 100% 0% 0%)" }}
+            animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
+            transition={{ duration: 0.5, ease: "easeInOut" }}
+            className="inline-block"
+          >
+            IEEE ESSTHS
+          </motion.span>
+        </motion.h1>
+      )}
+
+      <div className="absolute top-24 z-0 flex flex-wrap justify-center gap-2"> {/* Horizontal flex layout */}
+        {images.map((src, index) => (
+          <motion.div
+            key={index}
+            className="flex flex-col items-center"
+            initial={{ opacity: 0, scale: 1.2, rotate: imageRotations[index] }}
+            animate={{
+              opacity: showTitle ? 0.3 : 1,
+              scale: 1.1,
+              rotate: imageRotations[index],
+              filter: showTitle ? "blur(6px)" : "none",
+            }}
+            transition={{ duration: 1.5, delay: (index % images.length) * 0.1 }}
+          >
+            <img
+              src={src}
+              className="h-auto w-64 rounded-lg shadow-lg" /* Increased size */
+              alt={`Memory ${index + 1}`}
+            />
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+}
   
-	useEffect(() => {
-	  setTimeout(() => {
-		setShowTitle(true);
-	  }, 3000);
-	}, []);
-  
-	return (
-	  <div className="relative flex h-screen flex-col items-center justify-center">
-		{/* Animated Handwriting Title */}
-		{showTitle && (
-		  <motion.h1
-			initial={{ opacity: 0 }}
-			animate={{ opacity: 1 }}
-			transition={{ duration: 1.5 }}
-			className="z-10 text-center text-8xl font-extrabold text-blue-700"
-		  >
-			<motion.span
-			  initial={{ clipPath: "inset(0% 100% 0% 0%)" }}
-			  animate={{ clipPath: "inset(0% 0% 0% 0%)" }}
-			  transition={{ duration: 0.5, ease: "easeInOut" }}
-			  className="inline-block"
-			>
-			  IEEE ESSTHS
-			</motion.span>
-		  </motion.h1>
-		)}
-  
-		{/* Scattered Memory Images */}
-		<div className="absolute top-24 z-0 flex flex-wrap justify-center">
-		  {images.map((src, index) => {
-			const rotation = getRandomRotation();
-			const offsetX = getRandomOffset();
-			const offsetY = getRandomOffset();
-			return (
-			  <motion.div
-				key={index}
-				className="absolute"
-				initial={{ opacity: 0, scale: 1.2, rotate: rotation, x: offsetX, y: offsetY }}
-				animate={{
-				  opacity: showTitle ? 0.3 : 1,
-				  scale: 1,
-				  rotate: rotation,
-				  x: offsetX,
-				  y: offsetY,
-				  filter: showTitle ? "blur(6px)" : "none",
-				}}
-				transition={{ duration: 1.5, delay: index * 0.1 }}
-			  >
-				<img
-				  src={src}
-				  className="h-auto w-48 rounded-lg shadow-lg"
-				  alt={`Memory ${index + 1}`}
-				/>
-			  </motion.div>
-			);
-		  })}
-		</div>
-	  </div>
-	);
-  }
 export default function AppLayout({ children }) {
 	const { pathname } = useLocation();
 	const [showMemories, setShowMemories] = useState(true);
