@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
-import SmallLogo from "../../assets/logo/rsz_d2ycfxl.png";
 import routes from "../routes";
 import NavModal from "./NavModal";
 
@@ -17,7 +16,7 @@ export default function Navigation() {
 					<Link to="/" className="flex items-center">
 						<img
 							loading="eager"
-							src={SmallLogo}
+							src={"/assets/logo/rsz_d2ycfxl.png"}
 							className={`mr-3 h-10 sm:h-12`}
 							alt="IEEE ESSTHS"
 						/>

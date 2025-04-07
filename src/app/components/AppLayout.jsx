@@ -1,6 +1,5 @@
 import { Link, Outlet, ScrollRestoration } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
-import mosmos from "../../assets/mosmos.png";
 import Footer from "./Footer";
 import Navigation from "./Navigation";
 
@@ -22,7 +21,7 @@ export default function AppLayout({ children }) {
 
 			<Link to="https://www.facebook.com/essthsieee" target="_blank">
 				<img
-					src={mosmos}
+					src={"/assets/mosmos.png"}
 					className={twMerge(
 						"fixed top-20 h-24 rotate-45 object-contain transition hover:scale-110 md:right-0 md:top-auto md:bottom-24 md:-rotate-45"
 					)}

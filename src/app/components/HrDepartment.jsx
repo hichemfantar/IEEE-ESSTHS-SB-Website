@@ -1,11 +1,3 @@
-import nour_jeday from "../../assets/OC pictures/nour_jeday.jpg";
-import iheb_kortas from "../../assets/OC pictures/iheb_kortas.jpg";
-import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
-import arije_bh from "../../assets/OC pictures/arije_bh.jpg";
-import mayssa_ba from "../../assets/OC pictures/mayssa_ba.jpg";
-import soulaima_beltaif from "../../assets/OC pictures/soulaima_beltaif.jpg";
-import mehdi_selten from "../../assets/OC pictures/mehdi_selten.jpg";
-
 export default function HrDepartment() {
 	return (
 		<div>
@@ -57,7 +49,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: ahmed_hmila,
+			url: "/assets/OC pictures/ahmed_hmila.jpg",
 		},
 	},
 	{
@@ -80,7 +72,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: iheb_kortas,
+			url: "/assets/OC pictures/iheb_kortas.jpg",
 		},
 	},
 	{
@@ -103,7 +95,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: nour_jeday,
+			url: "/assets/OC pictures/nour_jeday.jpg",
 		},
 	},
 	{
@@ -126,7 +118,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: mayssa_ba,
+			url: "/assets/OC pictures/mayssa_ba.jpg",
 		},
 	},
 	{
@@ -149,7 +141,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: mehdi_selten,
+			url: "/assets/OC pictures/mehdi_selten.jpg",
 		},
 	},
 	{
@@ -172,7 +164,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: soulaima_beltaif,
+			url: "/assets/OC pictures/soulaima_beltaif.jpg",
 		},
 	},
 	{
@@ -195,7 +187,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: arije_bh,
+			url: "/assets/OC pictures/arije_bh.jpg",
 		},
 	},
 ];

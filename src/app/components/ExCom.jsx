@@ -1,5 +1,3 @@
-import ahmed_hmila from "../../assets/OC pictures/ahmed_hmila.jpg";
-
 export default function ExCom() {
 	return (
 		<div>
@@ -241,7 +239,7 @@ export const teamData2023 = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: ahmed_hmila,
+			url: "/assets/OC pictures/ahmed_hmila.jpg",
 		},
 	},
 	{
@@ -287,7 +285,7 @@ export const teamData2023 = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: ahmed_hmila,
+			url: "/assets/OC pictures/ahmed_hmila.jpg",
 		},
 	},
 

@@ -1,9 +1,3 @@
-import emna_jbeli from "../../assets/OC pictures/emna_jbeli.jpg";
-import ghada_ben_mansour from "../../assets/OC pictures/ghada_ben_mansour.jpg";
-import arije_bh from "../../assets/OC pictures/arije_bh.jpg";
-import yamen_ouannes from "../../assets/OC pictures/yamen_ouannes.jpg";
-import farah_fassi from "../../assets/OC pictures/farah_fassi.jpg";
-
 export default function MultimediaDepartment() {
 	return (
 		<div>
@@ -57,7 +51,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: ghada_ben_mansour,
+			url: "/assets/OC pictures/ghada_ben_mansour.jpg",
 		},
 	},
 	{
@@ -80,7 +74,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: yamen_ouannes,
+			url: "/assets/OC pictures/yamen_ouannes.jpg",
 		},
 	},
 	{
@@ -103,7 +97,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: farah_fassi,
+			url: "/assets/OC pictures/farah_fassi.jpg",
 		},
 	},
 	{
@@ -149,7 +143,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: emna_jbeli,
+			url: "/assets/OC pictures/emna_jbeli.jpg",
 		},
 	},
 	{
@@ -172,7 +166,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: arije_bh,
+			url: "/assets/OC pictures/arije_bh.jpg",
 		},
 	},
 ];

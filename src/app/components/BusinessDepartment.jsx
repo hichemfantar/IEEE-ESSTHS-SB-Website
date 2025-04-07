@@ -1,9 +1,3 @@
-import salma_achour from "../../assets/OC pictures/salma_achour.jpg";
-import salma_ghedamsi from "../../assets/OC pictures/salma_ghedamsi.jpg";
-import nayssen_chebbi from "../../assets/OC pictures/nayssen_chebbi.jpg";
-import kacem_obey from "../../assets/OC pictures/kacem_obey.jpg";
-import imen_ben_hassine from "../../assets/OC pictures/imen_ben_hassine.jpg";
-
 export default function BusinessDepartment() {
 	return (
 		<div>
@@ -69,7 +63,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: salma_ghedamsi,
+			url: "/assets/OC pictures/salma_ghedamsi.jpg",
 		},
 	},
 	{
@@ -92,7 +86,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: nayssen_chebbi,
+			url: "/assets/OC pictures/nayssen_chebbi.jpg",
 		},
 	},
 	{
@@ -115,7 +109,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: salma_achour,
+			url: "/assets/OC pictures/salma_achour.jpg",
 		},
 	},
 	{
@@ -138,7 +132,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: kacem_obey,
+			url: "/assets/OC pictures/kacem_obey.jpg",
 		},
 	},
 	{
@@ -161,7 +155,7 @@ export const teamData = [
 			url: "https://www.datocms-assets.com/35255/1665002893-t0caq00tu-u0cal2338-286336d9a71b-512.png",
 		},
 		imageSmall: {
-			url: imen_ben_hassine,
+			url: "/assets/OC pictures/imen_ben_hassine.jpg",
 		},
 	},
 ];

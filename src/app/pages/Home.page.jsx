@@ -1,6 +1,4 @@
 import { Link } from "react-router-dom";
-import mosmosetImage from "../../assets/ieee-essths/mosmoset.png";
-import SBGroupPic from "../../assets/sb-group-pic.jpg";
 import Chairs from "../components/Chairs";
 import ExCom from "../components/ExCom";
 
@@ -14,7 +12,7 @@ export default function HomePage() {
 						ESSTHS Student Branch
 					</h1>
 					<img
-						src={mosmosetImage}
+						src={"/assets/mosmoset.png"}
 						className="mx-auto mb-2 h-56 object-contain drop-shadow-lg sm:h-52"
 						alt="TSYP 11"
 						loading="lazy"
@@ -72,7 +70,7 @@ export default function HomePage() {
 			<section className="grid items-center justify-center gap-4 py-8 md:grid-cols-12 md:py-28">
 				<div className="col-span-6 mx-auto">
 					<img
-						src={SBGroupPic}
+						src={"/assets/sb-group-pic.jpg"}
 						className="mx-auto h-56 rounded-2xl object-cover sm:h-96"
 						alt="TSYP 11"
 						loading="lazy"
