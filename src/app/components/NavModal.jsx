@@ -1,17 +1,16 @@
-import { Dialog, Transition } from "@headlessui/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
-import { Fragment } from "react";
-import { NavLink } from "react-router-dom";
-import { twMerge } from "tailwind-merge";
-import routes from "../routes";
-import ThemeToggle from "./ThemeToggle";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
 	faFacebook,
 	faGithub,
 	faInstagram,
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Dialog, Transition } from "@headlessui/react";
+import { XMarkIcon } from "@heroicons/react/24/outline";
+import { Fragment } from "react";
+import { NavLink } from "react-router-dom";
+import { twMerge } from "tailwind-merge";
+import routes from "../routes";
 
 export default function NavModal({ setToggleModal, toggleModal }) {
 	return (
@@ -151,8 +150,6 @@ export default function NavModal({ setToggleModal, toggleModal }) {
 												>
 													<FontAwesomeIcon icon={faGithub} />
 												</a>
-
-												<ThemeToggle />
 											</div>
 										</div>
 										<div className="mt-2 px-4 text-start font-semibold sm:px-6">

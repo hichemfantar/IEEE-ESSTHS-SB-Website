@@ -1,7 +1,3 @@
-import { Link, NavLink } from "react-router-dom";
-import ThemeToggle from "./ThemeToggle";
-import routes from "../routes";
-import { twMerge } from "tailwind-merge";
 import {
 	faFacebook,
 	faGithub,
@@ -9,6 +5,9 @@ import {
 	faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Link, NavLink } from "react-router-dom";
+import { twMerge } from "tailwind-merge";
+import routes from "../routes";
 
 export default function Footer() {
 	return (
@@ -92,11 +91,6 @@ export default function Footer() {
 						</li>
 					</ul>
 
-					{true && (
-						<div className="hidden lg:block">
-							<ThemeToggle />
-						</div>
-					)}
 					<a
 						href="https://www.facebook.com/essthsieee"
 						target="_blank"

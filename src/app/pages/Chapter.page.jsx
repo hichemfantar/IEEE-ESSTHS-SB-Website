@@ -1,13 +1,7 @@
-import { Link, useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
-import cs_cover from "../../assets/chapters/cs_cover.jpg";
-import ias_cover from "../../assets/chapters/ias_cover.jpg";
-import pes_cover from "../../assets/chapters/pes_cover.jpg";
-import ras_cover from "../../assets/chapters/ras_cover.jpg";
-import wie_cover from "../../assets/chapters/wie_cover.jpg";
-import sight_cover from "../../assets/chapters/sight_cover.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Chapter, Events } from "../components/Chapter";
 
 export default function ChapterPage() {
@@ -27,22 +21,9 @@ export default function ChapterPage() {
 					{currentChapter.name}
 				</h2>
 			</div>
-			{/* <div className="flex items-center justify-center">
-				<img
-					className="mb-8 rounded-2xl object-cover shadow-lg md:h-[42rem]"
-					src={currentChapter.excom_image}
-					alt=""
-				/>
-			</div> */}
 			<Chapter chapter={currentChapter} />
 			<div className="h-10"></div>
 			<Events chapter={currentChapter} />
-			{/* <div className="mb-12">
-				<ExCom />
-			</div>
-			<div>
-				<Chairs />
-			</div> */}
 		</div>
 	);
 }
@@ -51,7 +32,6 @@ export const chapters = [
 	{
 		name: "Computer Society (CS)",
 		slug: "cs",
-		excom_image: cs_cover,
 		team: [
 			{
 				name: "Ahmed Jguirim",
@@ -301,7 +281,6 @@ export const chapters = [
 	{
 		name: "Robotics & Automation Society (RAS)",
 		slug: "ras",
-		excom_image: ras_cover,
 		team: [
 			{
 				name: "Aziz Knaz",
@@ -523,7 +502,6 @@ export const chapters = [
 	{
 		name: "IAS IES PES Joint Chapter (IIP)",
 		slug: "iip",
-		excom_image: pes_cover,
 		team: [
 			{
 				name: "Yomna Ismail",
@@ -854,20 +832,9 @@ export const chapters = [
 			},
 		],
 	},
-	// {
-	// 	name: "Power & Energy Society",
-	// 	slug: "pes",
-	// 	excom_image: pes_cover,
-	// },
-	// {
-	// 	name: "Industry Applications Society",
-	// 	slug: "ias",
-	// 	excom_image: ias_cover,
-	// },
 	{
 		name: "Special Interest Group on Humanitarian Technology (SIGHT)",
 		slug: "sight",
-		excom_image: sight_cover,
 		team: [
 			{
 				name: "Faten Ouergli",
@@ -977,7 +944,6 @@ export const chapters = [
 	{
 		name: "Women In Engineering (WIE)",
 		slug: "wie",
-		excom_image: wie_cover,
 		team: [
 			{
 				name: "Sarra Ghazaoui",
@@ -1175,8 +1141,6 @@ export const chapters = [
 	{
 		name: "Aerospace and Electronic Systems Society (AESS)",
 		slug: "aess",
-		excom_image:
-			"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/343659367_1699499560470613_5370874928584365932_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=d4nyr2B8VhIAX_4Yjz3&_nc_ht=scontent.ftun16-1.fna&oh=00_AfC8-pmvjaCbhmuRkiZWOteAYdvv1JgwcvdYCFWzjTOdGg&oe=64C2806C",
 		team: [
 			{
 				name: "Ayoub Hlel",
@@ -1216,10 +1180,4 @@ export const chapters = [
 		],
 		events: [],
 	},
-	// {
-	// 	name: "CIS",
-	// 	slug: "cis",
-	// 	excom_image:
-	// 		"https://scontent.ftun16-1.fna.fbcdn.net/v/t39.30808-6/343659367_1699499560470613_5370874928584365932_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=d4nyr2B8VhIAX_4Yjz3&_nc_ht=scontent.ftun16-1.fna&oh=00_AfC8-pmvjaCbhmuRkiZWOteAYdvv1JgwcvdYCFWzjTOdGg&oe=64C2806C",
-	// },
 ];

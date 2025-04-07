@@ -10,10 +10,6 @@
 	}
 }
 
-/* .global-dark-theme {
-	color-scheme: dark;
-} */
-
 html.light {
 	color-scheme: light;
 }
@@ -25,7 +21,6 @@ html.dark {
 :root {
 	font-family: Inter, sans-serif;
 	scroll-behavior: smooth;
-	/* color-scheme: light; */
 }
 
 html {
@@ -36,9 +31,4 @@ html,
 body,
 #root {
 	height: 100%;
-}
-
-#ss_survey_widget > iframe {
-	border-radius: 1rem /* 16px */;
-	width: 100% !important;
 }

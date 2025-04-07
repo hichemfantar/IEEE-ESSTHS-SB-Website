@@ -1,15 +1,7 @@
-import React from "react";
-import Logo from "../../assets/main logo black (Custom).png";
-import LightLogo from "../../assets/main logo_2 (Custom).png";
-import SBGroupPic from "../../assets/sb-group-pic.jpg";
-import { SparrowSurvey } from "./Home.page";
-
 export default function ContactPage() {
 	return (
 		<div className="h-full">
 			<ContactForm />
-
-			{false && <SparrowSurvey />}
 		</div>
 	);
 }

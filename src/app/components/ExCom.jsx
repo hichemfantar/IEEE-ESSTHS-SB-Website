@@ -10,11 +10,6 @@ export default function ExCom() {
 				{teamData
 					?.filter((s) => !!s?.active)
 					?.map((speaker) => (
-						// <Link
-						// 	key={speaker.name}
-						// 	to={speaker.name}
-						// 	className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
-						// >
 						<div
 							key={speaker.name}
 							className="col-span-6 rounded-xl border-2 p-2 transition hover:border-gray-600 focus:border-gray-900 dark:border-gray-800 dark:hover:border-gray-600 dark:focus:border-gray-500 md:col-span-3 lg:col-span-2"
@@ -29,15 +24,8 @@ export default function ExCom() {
 								loading="lazy"
 							/>
 							<div className="font-bold">{speaker.name}</div>
-							{/* <div className="mb-2 text-sm text-gray-600 dark:text-gray-400">
-								@{speaker.twitterUsername}
-							</div> */}
-							<div className="text-sm">
-								{speaker.title}
-								{false && `, ${speaker.company.name}`}
-							</div>
+							<div className="text-sm">{speaker.title}</div>
 						</div>
-						// </Link>
 					))}
 			</div>
 		</div>

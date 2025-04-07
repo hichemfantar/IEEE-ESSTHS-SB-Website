@@ -1,16 +1,11 @@
+import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { twMerge } from "tailwind-merge";
+import SmallLogo from "../../assets/logo/rsz_d2ycfxl.png";
 import routes from "../routes";
 import NavModal from "./NavModal";
-// import SmallLogo from "../../assets/logo/logo-10-percent.png";
-import SmallLogo from "../../assets/logo/rsz_d2ycfxl.png";
-import Logo from "../../assets/main logo black (Custom).png";
-import LightLogo from "../../assets/main logo_2 (Custom).png";
-import LogoOnBlack from "../../assets/Logo on black.png";
-import ThemeToggle from "./ThemeToggle";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExternalLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navigation() {
 	const [toggleModal, setToggleModal] = useState(false);
@@ -26,20 +21,6 @@ export default function Navigation() {
 							className={`mr-3 h-10 sm:h-12`}
 							alt="IEEE ESSTHS"
 						/>
-						{/* <svg
-							className="mr-3 h-6 fill-gray-900 dark:fill-gray-100 sm:h-9"
-							aria-label="Vercel Logo"
-							// fill="white"
-							viewBox="0 0 75 65"
-							height={26}
-							data-testid="dashboard/logo"
-						>
-							<path d="M37.59.25l36.95 64H.64l36.95-64z" />
-						</svg> */}
-
-						{/* <span className="self-center whitespace-nowrap text-xl font-semibold">
-							TSYP 11
-						</span> */}
 					</Link>
 					<div className="fontt-['space_mono'] flex items-center gap-2">
 						<div className="hidden w-auto items-center justify-between lg:flex">
@@ -103,12 +84,6 @@ export default function Navigation() {
 							</ul>
 						</div>
 
-						{false && (
-							<div className="hidden lg:block">
-								<ThemeToggle />
-							</div>
-						)}
-
 						<Link
 							target="_blank"
 							to="https://forms.gle/rWezNMjFbYPWCmWk8"
@@ -130,8 +105,6 @@ export default function Navigation() {
 						>
 							Get started
 						</button> */}
-
-						{/* <ThemeToggle /> */}
 
 						<button
 							data-collapse-toggle="navbar-cta"
